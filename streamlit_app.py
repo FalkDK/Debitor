@@ -74,7 +74,8 @@ selected_isins = st.multiselect("Select ISINs:", options=isin_options, default=d
 
 # sidebar
 with st.sidebar:
-    st.write('Debitor')
+    st.button('Debitor')
+    st.button('Cash Flow')
 
 # Checkbox to show/hide raw data
 show_raw_data = st.checkbox('Show Raw Data')
@@ -106,7 +107,7 @@ if selected_isins:
             st.write(f'restgaeld_obl: {rest_obl:,}')
             st.table(pivoted_df.loc[isin].fillna(0))  # Using fillna(0) to replace NaN values with 0 for better presentation
         with col2:
-            st.write(f'restgaeld_obl_kontant')
+            st.write(f'restgaeld_obl_kontant: {rest_kontant:,}')
             st.table(pivoted_df_kontant.loc[isin].fillna(0))  # Using fillna(0) to replace NaN values with 0 for better presentation
 
     # Plotting the combined bar chart for debtor distribution
