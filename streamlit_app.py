@@ -7,7 +7,7 @@ import os
 # Function to load data from XML files
 @st.cache_data
 def load_data():
-    data_folder = "Data"
+    data_folder = "./Data"
     file_paths = ['dlr.xml', 'jyk.xml', 'nda.xml', 'nyk.xml', 'rd.xml']
     all_data = []
 
