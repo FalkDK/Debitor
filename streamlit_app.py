@@ -13,6 +13,10 @@ def load_data():
 
     for file_name in file_paths:
         file_path = os.path.join(data_folder, file_name)
+        print("Trying to load:", file_path)
+        if not os.path.exists(file_path):
+            print("File does not exist:", file_path)
+            continue
         tree = ET.parse(file_path)
         root = tree.getroot()
 
