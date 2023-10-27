@@ -64,9 +64,13 @@ st.title("Debitor Distribution")
 # Load data
 df = load_data()
 
-# Sidebar for ISIN selection
-default_isins = ['DK0009540981', 'DK0009409922', 'DK0006359286', 'DK0004626918', 'DK0002058346'] 
-selected_isins = st.multiselect("Select ISINs:", options=df['isin'].unique(), default=default_isins)
+# default isin
+default_isins = ['DK0009540981', 'DK0009409922', 'DK0006359286', 'DK0004626918', 'DK0002058346']
+isin_options = df['isin'].unique()
+
+# Ensure all default ISINs are in the options
+default_isins = [isin for isin in default_isins if isin in isin_options]
+selected_isins = st.multiselect("Select ISINs:", options=isin_options, default=default_isins)
 
 # sidebar
 with st.sidebar:
