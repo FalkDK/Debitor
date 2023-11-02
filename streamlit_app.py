@@ -57,6 +57,40 @@ def compute_avg_loan_size(df, selected_isins):
         loan_size_dfs.append(filtered_df)
     return pd.concat(loan_size_dfs)
 
+# Function to compute share of obl and cash loans
+def calculate_restgaeld_shares(df, isin):
+    # Filter the DataFrame by ISIN
+    filtered_df = df[df['isin'] == isin].copy()
+    
+    # Calculate the total sum of restgaeld_obl and restgaeld_obl_kontant
+    total_restgaeld_obl = filtered_df['restgaeld_obl'].sum()
+    total_restgaeld_obl_kontant = filtered_df['restgaeld_obl_kontant'].sum()
+    
+    # Calculate the total of both restgaeld_obl and restgaeld_obl_kontant
+    total_restgaeld = total_restgaeld_obl + total_restgaeld_obl_kontant
+    
+    # Calculate the share of restgaeld_obl and restgaeld_obl_kontant
+    share_restgaeld_obl = total_restgaeld_obl / total_restgaeld if total_restgaeld != 0 else 0
+    share_restgaeld_obl_kontant = total_restgaeld_obl_kontant / total_restgaeld if total_restgaeld != 0 else 0
+    
+    return share_restgaeld_obl, share_restgaeld_obl_kontant
+
+# Function to compute share of private and corporate loan share
+def calculate_loan_shares(df, isin):
+    # Step 1: Filter the DataFrame by ISIN and laan_gruppe
+    filtered_df = df[(df['isin'] == isin) & df['laan_gruppe'].isin(['A', 'B'])].copy()
+    
+    # Step 2: Calculate the total sum of loans in each laan_gruppe across restgaeld_obl and restgaeld_obl_kontant
+    total_loans_A = filtered_df[filtered_df['laan_gruppe'] == 'A'][['restgaeld_obl', 'restgaeld_obl_kontant']].sum().sum()
+    total_loans_B = filtered_df[filtered_df['laan_gruppe'] == 'B'][['restgaeld_obl', 'restgaeld_obl_kontant']].sum().sum()
+    
+    # Step 3: Calculate the share of loans in each laan_gruppe over the total sum of loans in both groups
+    total_loans = total_loans_A + total_loans_B
+    share_A = total_loans_A / total_loans if total_loans != 0 else 0
+    share_B = total_loans_B / total_loans if total_loans != 0 else 0
+    
+    return share_A, share_B
+
 # Main Streamlit app
 st.set_page_config(layout="centered", page_title='Callables')  # wide/centered
 st.title("Debitor Distribution")
@@ -101,13 +135,15 @@ if selected_isins:
     for isin in selected_isins:
         rest_obl = df[(df['isin'] == isin)]['restgaeld_obl'].sum()
         rest_kontant = df[(df['isin'] == isin)]['restgaeld_obl_kontant'].sum()
-        st.write(f"ISIN: {isin}")
+        share_obl, share_kontant = calculate_restgaeld_shares(df, isin)
+        share_a, share_b = calculate_loan_shares(df, isin)
+        st.write(f"**ISIN:** {isin} | **Private Share:** {round(share_a, 3)} | **Commercial Share:** {round(share_b,3)}")
         col1, col2 = st.columns(2)
         with col1:
-            st.write(f'restgaeld_obl: {rest_obl:,}')
+            st.write(f'**Obl:** {rest_obl:,} | **Share:** {round(share_obl, 3)}')
             st.table(pivoted_df.loc[isin].fillna(0))  # Using fillna(0) to replace NaN values with 0 for better presentation
         with col2:
-            st.write(f'restgaeld_obl_kontant: {rest_kontant:,}')
+            st.write(f'**Cash:** {rest_kontant:,} | **Share:** {round(share_kontant, 3)} ')
             st.table(pivoted_df_kontant.loc[isin].fillna(0))  # Using fillna(0) to replace NaN values with 0 for better presentation
 
     # Plotting the combined bar chart for debtor distribution
@@ -134,6 +170,7 @@ if selected_isins:
                             title='Average Loan Sizes across restgaeldinterval')
     
     st.plotly_chart(fig_loan_size)
+
 else:
     st.write("Please select at least one ISIN.")
 
