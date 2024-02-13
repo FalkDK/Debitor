@@ -22,12 +22,12 @@ This Streamlit app provides comprehensive analysis and visualization of Danish b
 1. Clone this repository to your local machine.
 2. Install the required Python packages:
    ```bash
-     pip install streamlit pandas plotly
+   pip install streamlit pandas plotly
 
 ## Running the App
 Navigate to the project directory in your terminal and execute the following command:
 ```bash
-streamlit run streamlit_app.py
+   streamlit run streamlit_app.py
 ```
 ## Usage
 After launching the app, you'll encounter the main interface, which includes:
