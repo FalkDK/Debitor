@@ -188,7 +188,7 @@ def main():
     df = load_data()
     
     # default isin
-    default_isins = ['DK0009540981', 'DK0009409922', 'DK0006359286', 'DK0004626918', 'DK0002058346']
+    default_isins = ['DK0009540981', 'DK0009409922', 'DK0006359286', 'DK0004626918', 'DK0002058346', 'DK0009541013', 'DK0009409419', 'DK0006359369', 'DK0004627056', 'DK0002058429']
     isin_options = df['isin'].unique()
 
     # Ensure all default ISINs are in the options
