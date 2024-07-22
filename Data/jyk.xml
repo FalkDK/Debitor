@@ -1409,12 +1409,12 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <D>
-      <restgaeld_obl>8643688</restgaeld_obl>
-      <restgaeld_obl_kontant>2320003</restgaeld_obl_kontant>
-      <restgaeld_kontant>2286994</restgaeld_kontant>
-      <kontant_rente>6.91</kontant_rente>
-      <antal_obl_laan>102</antal_obl_laan>
-      <antal_kontant_laan>36</antal_kontant_laan>
+      <restgaeld_obl>8549520</restgaeld_obl>
+      <restgaeld_obl_kontant>2234952</restgaeld_obl_kontant>
+      <restgaeld_kontant>2202790</restgaeld_kontant>
+      <kontant_rente>6.92</kontant_rente>
+      <antal_obl_laan>100</antal_obl_laan>
+      <antal_kontant_laan>34</antal_kontant_laan>
       <fradrags_konto>52202</fradrags_konto>
       <fradrags_konto_laan>11</fradrags_konto_laan>
     </D>
@@ -1499,8 +1499,8 @@
     <laan_gruppe>C</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <I>
-      <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>61188</opsagt_beloeb>
+      <antal_opsagte_laan>0</antal_opsagte_laan>
+      <opsagt_beloeb>0</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -2735,11 +2735,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <D>
-      <restgaeld_obl>3052726</restgaeld_obl>
+      <restgaeld_obl>2996159</restgaeld_obl>
       <restgaeld_obl_kontant>41786</restgaeld_obl_kontant>
       <restgaeld_kontant>41416</restgaeld_kontant>
       <kontant_rente>7.32</kontant_rente>
-      <antal_obl_laan>35</antal_obl_laan>
+      <antal_obl_laan>34</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>2033</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -2930,11 +2930,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <D>
-      <restgaeld_obl>20660453</restgaeld_obl>
+      <restgaeld_obl>20395334</restgaeld_obl>
       <restgaeld_obl_kontant>412619</restgaeld_obl_kontant>
       <restgaeld_kontant>404728</restgaeld_kontant>
       <kontant_rente>5.48</kontant_rente>
-      <antal_obl_laan>156</antal_obl_laan>
+      <antal_obl_laan>153</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>37221</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -2945,11 +2945,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>26990950</restgaeld_obl>
+      <restgaeld_obl>26783693</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>93</antal_obl_laan>
+      <antal_obl_laan>92</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>106504</fradrags_konto>
       <fradrags_konto_laan>11</fradrags_konto_laan>
@@ -3050,8 +3050,8 @@
     <laan_gruppe>C</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <I>
-      <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>77293</opsagt_beloeb>
+      <antal_opsagte_laan>0</antal_opsagte_laan>
+      <opsagt_beloeb>0</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -3059,8 +3059,8 @@
     <laan_gruppe>C</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <I>
-      <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>207257</opsagt_beloeb>
+      <antal_opsagte_laan>0</antal_opsagte_laan>
+      <opsagt_beloeb>0</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -3764,11 +3764,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>20718674</restgaeld_obl>
+      <restgaeld_obl>20246083</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>70</antal_obl_laan>
+      <antal_obl_laan>69</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>34576</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -3779,11 +3779,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>7121349</restgaeld_obl>
+      <restgaeld_obl>6519386</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>12</antal_obl_laan>
+      <antal_obl_laan>11</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -3848,8 +3848,8 @@
     <laan_gruppe>C</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <I>
-      <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>472591</opsagt_beloeb>
+      <antal_opsagte_laan>0</antal_opsagte_laan>
+      <opsagt_beloeb>0</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -4052,7 +4052,7 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>4741332</restgaeld_obl>
+      <restgaeld_obl>4222966</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
@@ -4178,13 +4178,13 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <D>
-      <restgaeld_obl>2286636</restgaeld_obl>
+      <restgaeld_obl>2169776</restgaeld_obl>
       <restgaeld_obl_kontant>69955</restgaeld_obl_kontant>
       <restgaeld_kontant>69779</restgaeld_kontant>
       <kontant_rente>4.27</kontant_rente>
-      <antal_obl_laan>43</antal_obl_laan>
+      <antal_obl_laan>42</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
-      <fradrags_konto>9894</fradrags_konto>
+      <fradrags_konto>7586</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
     </D>
   </debitormasse>
@@ -4298,8 +4298,8 @@
     <laan_gruppe>C</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <I>
-      <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>116860</opsagt_beloeb>
+      <antal_opsagte_laan>0</antal_opsagte_laan>
+      <opsagt_beloeb>0</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -4451,11 +4451,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <D>
-      <restgaeld_obl>19794395</restgaeld_obl>
+      <restgaeld_obl>19314747</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>156</antal_obl_laan>
+      <antal_obl_laan>152</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>5624</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -4466,11 +4466,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>202569408</restgaeld_obl>
+      <restgaeld_obl>200418882</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>563</antal_obl_laan>
+      <antal_obl_laan>557</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>412129</fradrags_konto>
       <fradrags_konto_laan>38</fradrags_konto_laan>
@@ -4481,11 +4481,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>460165612</restgaeld_obl>
+      <restgaeld_obl>450757711</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>644</antal_obl_laan>
+      <antal_obl_laan>632</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>826058</fradrags_konto>
       <fradrags_konto_laan>45</fradrags_konto_laan>
@@ -4496,11 +4496,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>298718310</restgaeld_obl>
+      <restgaeld_obl>295365515</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>229</antal_obl_laan>
+      <antal_obl_laan>226</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>149767</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -4601,8 +4601,8 @@
     <laan_gruppe>C</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <I>
-      <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>317875</opsagt_beloeb>
+      <antal_opsagte_laan>0</antal_opsagte_laan>
+      <opsagt_beloeb>0</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -4611,7 +4611,7 @@
     <restgaeldinterval>2</restgaeldinterval>
     <I>
       <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>1328915</opsagt_beloeb>
+      <opsagt_beloeb>1200654</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -4620,7 +4620,7 @@
     <restgaeldinterval>3</restgaeldinterval>
     <I>
       <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>2237574</opsagt_beloeb>
+      <opsagt_beloeb>710724</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -4628,8 +4628,8 @@
     <laan_gruppe>C</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <I>
-      <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>1002702</opsagt_beloeb>
+      <antal_opsagte_laan>0</antal_opsagte_laan>
+      <opsagt_beloeb>0</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -4646,11 +4646,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <D>
-      <restgaeld_obl>38226449</restgaeld_obl>
+      <restgaeld_obl>37556040</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>304</antal_obl_laan>
+      <antal_obl_laan>300</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>89336</fradrags_konto>
       <fradrags_konto_laan>16</fradrags_konto_laan>
@@ -4661,11 +4661,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>191697571</restgaeld_obl>
+      <restgaeld_obl>190285264</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>579</antal_obl_laan>
+      <antal_obl_laan>575</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>699927</fradrags_konto>
       <fradrags_konto_laan>52</fradrags_konto_laan>
@@ -4676,14 +4676,14 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>235461192</restgaeld_obl>
+      <restgaeld_obl>230744453</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>348</antal_obl_laan>
+      <antal_obl_laan>342</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
-      <fradrags_konto>750606</fradrags_konto>
-      <fradrags_konto_laan>35</fradrags_konto_laan>
+      <fradrags_konto>715650</fradrags_konto>
+      <fradrags_konto_laan>34</fradrags_konto_laan>
     </D>
   </debitormasse>
   <debitormasse>
@@ -4751,7 +4751,7 @@
     <laan_gruppe>B</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>4668364</restgaeld_obl>
+      <restgaeld_obl>3763119</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
@@ -4796,8 +4796,8 @@
     <laan_gruppe>C</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <I>
-      <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>195074</opsagt_beloeb>
+      <antal_opsagte_laan>0</antal_opsagte_laan>
+      <opsagt_beloeb>0</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -4805,8 +4805,8 @@
     <laan_gruppe>C</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <I>
-      <antal_opsagte_laan>0</antal_opsagte_laan>
-      <opsagt_beloeb>0</opsagt_beloeb>
+      <antal_opsagte_laan>9</antal_opsagte_laan>
+      <opsagt_beloeb>632670</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -4815,7 +4815,7 @@
     <restgaeldinterval>3</restgaeldinterval>
     <I>
       <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>903430</opsagt_beloeb>
+      <opsagt_beloeb>825562</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -5582,11 +5582,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <D>
-      <restgaeld_obl>986900</restgaeld_obl>
+      <restgaeld_obl>917249</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>16</antal_obl_laan>
+      <antal_obl_laan>15</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -5699,7 +5699,7 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <D>
-      <restgaeld_obl>1154398</restgaeld_obl>
+      <restgaeld_obl>996378</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
@@ -5789,8 +5789,8 @@
     <laan_gruppe>C</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <I>
-      <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>158020</opsagt_beloeb>
+      <antal_opsagte_laan>0</antal_opsagte_laan>
+      <opsagt_beloeb>0</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -6635,14 +6635,14 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <D>
-      <restgaeld_obl>1176040</restgaeld_obl>
+      <restgaeld_obl>1134883</restgaeld_obl>
       <restgaeld_obl_kontant>115796</restgaeld_obl_kontant>
       <restgaeld_kontant>116014</restgaeld_kontant>
       <kontant_rente>3.94</kontant_rente>
-      <antal_obl_laan>10</antal_obl_laan>
+      <antal_obl_laan>9</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
-      <fradrags_konto>1758</fradrags_konto>
-      <fradrags_konto_laan>9</fradrags_konto_laan>
+      <fradrags_konto>0</fradrags_konto>
+      <fradrags_konto_laan>0</fradrags_konto_laan>
     </D>
   </debitormasse>
   <debitormasse>
@@ -6695,8 +6695,8 @@
     <laan_gruppe>C</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <I>
-      <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>41156</opsagt_beloeb>
+      <antal_opsagte_laan>0</antal_opsagte_laan>
+      <opsagt_beloeb>0</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -7649,13 +7649,13 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <D>
-      <restgaeld_obl>2553659</restgaeld_obl>
+      <restgaeld_obl>2711505</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>18</antal_obl_laan>
+      <antal_obl_laan>19</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
-      <fradrags_konto>6555</fradrags_konto>
+      <fradrags_konto>12369</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
     </D>
   </debitormasse>
@@ -7664,14 +7664,14 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>61278221</restgaeld_obl>
+      <restgaeld_obl>60352932</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>176</antal_obl_laan>
+      <antal_obl_laan>173</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
-      <fradrags_konto>392601</fradrags_konto>
-      <fradrags_konto_laan>21</fradrags_konto_laan>
+      <fradrags_konto>381832</fradrags_konto>
+      <fradrags_konto_laan>20</fradrags_konto_laan>
     </D>
   </debitormasse>
   <debitormasse>
@@ -7820,11 +7820,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>34730020</restgaeld_obl>
+      <restgaeld_obl>34346842</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>102</antal_obl_laan>
+      <antal_obl_laan>101</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>77208</fradrags_konto>
       <fradrags_konto_laan>11</fradrags_konto_laan>
@@ -7964,8 +7964,8 @@
     <laan_gruppe>C</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <I>
-      <antal_opsagte_laan>0</antal_opsagte_laan>
-      <opsagt_beloeb>0</opsagt_beloeb>
+      <antal_opsagte_laan>9</antal_opsagte_laan>
+      <opsagt_beloeb>265536</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -8000,11 +8000,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <D>
-      <restgaeld_obl>1844160</restgaeld_obl>
+      <restgaeld_obl>1691232</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>13</antal_obl_laan>
+      <antal_obl_laan>12</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>2101</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -8015,11 +8015,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>23746133</restgaeld_obl>
+      <restgaeld_obl>23466332</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>64</antal_obl_laan>
+      <antal_obl_laan>63</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>116926</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -8045,11 +8045,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>23745791</restgaeld_obl>
+      <restgaeld_obl>22358446</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>17</antal_obl_laan>
+      <antal_obl_laan>16</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>34780</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -8747,13 +8747,13 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>19555483</restgaeld_obl>
+      <restgaeld_obl>18200483</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>13</antal_obl_laan>
+      <antal_obl_laan>12</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
-      <fradrags_konto>117976</fradrags_konto>
+      <fradrags_konto>109996</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
     </D>
   </debitormasse>
@@ -8888,11 +8888,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>19800236</restgaeld_obl>
+      <restgaeld_obl>19074891</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>30</antal_obl_laan>
+      <antal_obl_laan>29</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>8354</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -9365,11 +9365,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <D>
-      <restgaeld_obl>9190446</restgaeld_obl>
+      <restgaeld_obl>8939757</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>68</antal_obl_laan>
+      <antal_obl_laan>66</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>6510</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -9380,11 +9380,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>118713803</restgaeld_obl>
+      <restgaeld_obl>117743954</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>336</antal_obl_laan>
+      <antal_obl_laan>333</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>61517</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -9395,11 +9395,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>113517996</restgaeld_obl>
+      <restgaeld_obl>112852117</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>168</antal_obl_laan>
+      <antal_obl_laan>167</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>23696</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -9410,11 +9410,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>44389162</restgaeld_obl>
+      <restgaeld_obl>43217316</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>36</antal_obl_laan>
+      <antal_obl_laan>35</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -9755,11 +9755,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <D>
-      <restgaeld_obl>1834730</restgaeld_obl>
+      <restgaeld_obl>1809163</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>14</antal_obl_laan>
+      <antal_obl_laan>13</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -9911,11 +9911,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <D>
-      <restgaeld_obl>4378994</restgaeld_obl>
+      <restgaeld_obl>4320066</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>136</antal_obl_laan>
+      <antal_obl_laan>134</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>5510</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -10004,11 +10004,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>109909526</restgaeld_obl>
+      <restgaeld_obl>109105800</restgaeld_obl>
       <restgaeld_obl_kontant>203844</restgaeld_obl_kontant>
       <restgaeld_kontant>202565</restgaeld_kontant>
       <kontant_rente>2.57</kontant_rente>
-      <antal_obl_laan>294</antal_obl_laan>
+      <antal_obl_laan>292</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>295644</fradrags_konto>
       <fradrags_konto_laan>15</fradrags_konto_laan>
@@ -10019,11 +10019,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>230205031</restgaeld_obl>
+      <restgaeld_obl>226735884</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>326</antal_obl_laan>
+      <antal_obl_laan>321</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>405015</fradrags_konto>
       <fradrags_konto_laan>21</fradrags_konto_laan>
@@ -10034,11 +10034,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>143121531</restgaeld_obl>
+      <restgaeld_obl>141954295</restgaeld_obl>
       <restgaeld_obl_kontant>1084981</restgaeld_obl_kontant>
       <restgaeld_kontant>1075164</restgaeld_kontant>
       <kontant_rente>2.59</kontant_rente>
-      <antal_obl_laan>107</antal_obl_laan>
+      <antal_obl_laan>106</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>161028</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -10184,11 +10184,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <D>
-      <restgaeld_obl>15141363</restgaeld_obl>
+      <restgaeld_obl>15112405</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>266</antal_obl_laan>
+      <antal_obl_laan>264</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>21613</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -10379,7 +10379,7 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <D>
-      <restgaeld_obl>867966</restgaeld_obl>
+      <restgaeld_obl>709950</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
@@ -10424,11 +10424,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>146953480</restgaeld_obl>
+      <restgaeld_obl>143027480</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>103</antal_obl_laan>
+      <antal_obl_laan>100</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>107499</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -10628,14 +10628,14 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>174829269</restgaeld_obl>
+      <restgaeld_obl>171748487</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>454</antal_obl_laan>
+      <antal_obl_laan>446</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
-      <fradrags_konto>406634</fradrags_konto>
-      <fradrags_konto_laan>24</fradrags_konto_laan>
+      <fradrags_konto>355586</fradrags_konto>
+      <fradrags_konto_laan>23</fradrags_konto_laan>
     </D>
   </debitormasse>
   <debitormasse>
@@ -10643,11 +10643,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>593009698</restgaeld_obl>
+      <restgaeld_obl>591237818</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>823</antal_obl_laan>
+      <antal_obl_laan>820</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>1159630</fradrags_konto>
       <fradrags_konto_laan>60</fradrags_konto_laan>
@@ -10658,11 +10658,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>723943433</restgaeld_obl>
+      <restgaeld_obl>718241812</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>518</antal_obl_laan>
+      <antal_obl_laan>514</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>415532</fradrags_konto>
       <fradrags_konto_laan>19</fradrags_konto_laan>
@@ -10847,11 +10847,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <D>
-      <restgaeld_obl>5066660</restgaeld_obl>
+      <restgaeld_obl>4892299</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>31</antal_obl_laan>
+      <antal_obl_laan>30</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>7375</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -10862,11 +10862,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>138117223</restgaeld_obl>
+      <restgaeld_obl>137692573</restgaeld_obl>
       <restgaeld_obl_kontant>315185</restgaeld_obl_kontant>
       <restgaeld_kontant>310917</restgaeld_kontant>
       <kontant_rente>1.72</kontant_rente>
-      <antal_obl_laan>388</antal_obl_laan>
+      <antal_obl_laan>387</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>221362</fradrags_konto>
       <fradrags_konto_laan>14</fradrags_konto_laan>
@@ -10877,11 +10877,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>275545083</restgaeld_obl>
+      <restgaeld_obl>274715639</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>391</antal_obl_laan>
+      <antal_obl_laan>390</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>110672</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -11120,11 +11120,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <D>
-      <restgaeld_obl>15091779</restgaeld_obl>
+      <restgaeld_obl>14825588</restgaeld_obl>
       <restgaeld_obl_kontant>195290</restgaeld_obl_kontant>
       <restgaeld_kontant>192681</restgaeld_kontant>
       <kontant_rente>1.46</kontant_rente>
-      <antal_obl_laan>108</antal_obl_laan>
+      <antal_obl_laan>106</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>3587</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -11135,11 +11135,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>107438303</restgaeld_obl>
+      <restgaeld_obl>107223525</restgaeld_obl>
       <restgaeld_obl_kontant>485398</restgaeld_obl_kontant>
       <restgaeld_kontant>474857</restgaeld_kontant>
       <kontant_rente>1.69</kontant_rente>
-      <antal_obl_laan>311</antal_obl_laan>
+      <antal_obl_laan>310</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>74948</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -11150,11 +11150,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>152349630</restgaeld_obl>
+      <restgaeld_obl>151758161</restgaeld_obl>
       <restgaeld_obl_kontant>896081</restgaeld_obl_kontant>
       <restgaeld_kontant>889200</restgaeld_kontant>
       <kontant_rente>1.20</kontant_rente>
-      <antal_obl_laan>224</antal_obl_laan>
+      <antal_obl_laan>223</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -11255,7 +11255,7 @@
     <laan_gruppe>B</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>8735525</restgaeld_obl>
+      <restgaeld_obl>0</restgaeld_obl>
       <restgaeld_obl_kontant>37480564</restgaeld_obl_kontant>
       <restgaeld_kontant>37056436</restgaeld_kontant>
       <kontant_rente>1.37</kontant_rente>
@@ -11360,11 +11360,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>234116233</restgaeld_obl>
+      <restgaeld_obl>231564233</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>157</antal_obl_laan>
+      <antal_obl_laan>155</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>172907</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -11549,11 +11549,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <D>
-      <restgaeld_obl>27244017</restgaeld_obl>
+      <restgaeld_obl>27049750</restgaeld_obl>
       <restgaeld_obl_kontant>107460</restgaeld_obl_kontant>
       <restgaeld_kontant>106549</restgaeld_kontant>
       <kontant_rente>1.48</kontant_rente>
-      <antal_obl_laan>324</antal_obl_laan>
+      <antal_obl_laan>323</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>29346</fradrags_konto>
       <fradrags_konto_laan>10</fradrags_konto_laan>
@@ -11564,11 +11564,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>29919736</restgaeld_obl>
+      <restgaeld_obl>29529659</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>103</antal_obl_laan>
+      <antal_obl_laan>102</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>11186</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -11640,11 +11640,11 @@
     <restgaeldinterval>2</restgaeldinterval>
     <D>
       <restgaeld_obl>348157</restgaeld_obl>
-      <restgaeld_obl_kontant>5816346</restgaeld_obl_kontant>
-      <restgaeld_kontant>5791294</restgaeld_kontant>
-      <kontant_rente>0.96</kontant_rente>
+      <restgaeld_obl_kontant>5521161</restgaeld_obl_kontant>
+      <restgaeld_kontant>5496883</restgaeld_kontant>
+      <kontant_rente>0.97</kontant_rente>
       <antal_obl_laan>9</antal_obl_laan>
-      <antal_kontant_laan>17</antal_kontant_laan>
+      <antal_kontant_laan>16</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
     </D>
@@ -11880,11 +11880,11 @@
     <restgaeldinterval>4</restgaeldinterval>
     <D>
       <restgaeld_obl>0</restgaeld_obl>
-      <restgaeld_obl_kontant>123570286</restgaeld_obl_kontant>
-      <restgaeld_kontant>115403887</restgaeld_kontant>
+      <restgaeld_obl_kontant>121274741</restgaeld_obl_kontant>
+      <restgaeld_kontant>113250809</restgaeld_kontant>
       <kontant_rente>2.32</kontant_rente>
       <antal_obl_laan>0</antal_obl_laan>
-      <antal_kontant_laan>74</antal_kontant_laan>
+      <antal_kontant_laan>73</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
     </D>
@@ -12383,11 +12383,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>68414183</restgaeld_obl>
+      <restgaeld_obl>67926629</restgaeld_obl>
       <restgaeld_obl_kontant>399993</restgaeld_obl_kontant>
       <restgaeld_kontant>398491</restgaeld_kontant>
       <kontant_rente>1.55</kontant_rente>
-      <antal_obl_laan>184</antal_obl_laan>
+      <antal_obl_laan>183</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>36402</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -12398,11 +12398,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>232858795</restgaeld_obl>
+      <restgaeld_obl>230706124</restgaeld_obl>
       <restgaeld_obl_kontant>3934150</restgaeld_obl_kontant>
       <restgaeld_kontant>3908123</restgaeld_kontant>
       <kontant_rente>1.60</kontant_rente>
-      <antal_obl_laan>323</antal_obl_laan>
+      <antal_obl_laan>320</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>50403</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -12413,11 +12413,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>254864856</restgaeld_obl>
+      <restgaeld_obl>253122426</restgaeld_obl>
       <restgaeld_obl_kontant>4320158</restgaeld_obl_kontant>
       <restgaeld_kontant>4338345</restgaeld_kontant>
       <kontant_rente>1.44</kontant_rente>
-      <antal_obl_laan>182</antal_obl_laan>
+      <antal_obl_laan>181</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -12518,7 +12518,7 @@
     <laan_gruppe>B</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>11886450</restgaeld_obl>
+      <restgaeld_obl>8501745</restgaeld_obl>
       <restgaeld_obl_kontant>85033910</restgaeld_obl_kontant>
       <restgaeld_kontant>84343491</restgaeld_kontant>
       <kontant_rente>1.62</kontant_rente>
@@ -12617,11 +12617,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>61510378</restgaeld_obl>
+      <restgaeld_obl>61247254</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>156</antal_obl_laan>
+      <antal_obl_laan>155</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -12632,11 +12632,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>290127902</restgaeld_obl>
+      <restgaeld_obl>285475487</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>387</antal_obl_laan>
+      <antal_obl_laan>381</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>120885</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -12647,11 +12647,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>587092683</restgaeld_obl>
+      <restgaeld_obl>579106684</restgaeld_obl>
       <restgaeld_obl_kontant>4372298</restgaeld_obl_kontant>
       <restgaeld_kontant>4338844</restgaeld_kontant>
       <kontant_rente>2.08</kontant_rente>
-      <antal_obl_laan>402</antal_obl_laan>
+      <antal_obl_laan>396</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>196769</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -12851,11 +12851,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>45734834</restgaeld_obl>
+      <restgaeld_obl>45246753</restgaeld_obl>
       <restgaeld_obl_kontant>235073</restgaeld_obl_kontant>
       <restgaeld_kontant>233730</restgaeld_kontant>
       <kontant_rente>0.75</kontant_rente>
-      <antal_obl_laan>145</antal_obl_laan>
+      <antal_obl_laan>143</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>10007</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -13046,11 +13046,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>49522943</restgaeld_obl>
+      <restgaeld_obl>49265863</restgaeld_obl>
       <restgaeld_obl_kontant>313091</restgaeld_obl_kontant>
       <restgaeld_kontant>315453</restgaeld_kontant>
       <kontant_rente>0.83</kontant_rente>
-      <antal_obl_laan>143</antal_obl_laan>
+      <antal_obl_laan>142</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>22216</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -13280,11 +13280,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>15476941</restgaeld_obl>
+      <restgaeld_obl>14992205</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>42</antal_obl_laan>
+      <antal_obl_laan>41</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>65299</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -13310,13 +13310,13 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>253665848</restgaeld_obl>
+      <restgaeld_obl>251254357</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>163</antal_obl_laan>
+      <antal_obl_laan>161</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
-      <fradrags_konto>86443</fradrags_konto>
+      <fradrags_konto>45761</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
     </D>
   </debitormasse>
@@ -13400,7 +13400,7 @@
     <laan_gruppe>B</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>48736104</restgaeld_obl>
+      <restgaeld_obl>45386502</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
@@ -13475,11 +13475,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>32438843</restgaeld_obl>
+      <restgaeld_obl>31326007</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>82</antal_obl_laan>
+      <antal_obl_laan>79</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>64285</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -13490,11 +13490,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>218308100</restgaeld_obl>
+      <restgaeld_obl>214094715</restgaeld_obl>
       <restgaeld_obl_kontant>1491310</restgaeld_obl_kontant>
       <restgaeld_kontant>1410739</restgaeld_kontant>
       <kontant_rente>1.99</kontant_rente>
-      <antal_obl_laan>288</antal_obl_laan>
+      <antal_obl_laan>283</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>157845</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -13505,11 +13505,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>688063127</restgaeld_obl>
+      <restgaeld_obl>673229625</restgaeld_obl>
       <restgaeld_obl_kontant>9890409</restgaeld_obl_kontant>
       <restgaeld_kontant>9788612</restgaeld_kontant>
       <kontant_rente>1.60</kontant_rente>
-      <antal_obl_laan>432</antal_obl_laan>
+      <antal_obl_laan>423</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>152464</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -13520,11 +13520,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>70904914</restgaeld_obl>
+      <restgaeld_obl>67511793</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>20</antal_obl_laan>
+      <antal_obl_laan>19</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -13763,11 +13763,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>137374814</restgaeld_obl>
+      <restgaeld_obl>135159161</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>183</antal_obl_laan>
+      <antal_obl_laan>180</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>4068</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -13778,11 +13778,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>224280283</restgaeld_obl>
+      <restgaeld_obl>223246541</restgaeld_obl>
       <restgaeld_obl_kontant>2054129</restgaeld_obl_kontant>
       <restgaeld_kontant>2070732</restgaeld_kontant>
       <kontant_rente>0.90</kontant_rente>
-      <antal_obl_laan>148</antal_obl_laan>
+      <antal_obl_laan>147</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -13869,11 +13869,11 @@
     <restgaeldinterval>4</restgaeldinterval>
     <D>
       <restgaeld_obl>8820015</restgaeld_obl>
-      <restgaeld_obl_kontant>62352733</restgaeld_obl_kontant>
-      <restgaeld_kontant>61634220</restgaeld_kontant>
-      <kontant_rente>1.17</kontant_rente>
+      <restgaeld_obl_kontant>61352561</restgaeld_obl_kontant>
+      <restgaeld_kontant>60618227</restgaeld_kontant>
+      <kontant_rente>1.18</kontant_rente>
       <antal_obl_laan>9</antal_obl_laan>
-      <antal_kontant_laan>35</antal_kontant_laan>
+      <antal_kontant_laan>34</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
     </D>
@@ -13997,11 +13997,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>85266630</restgaeld_obl>
+      <restgaeld_obl>84102888</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>114</antal_obl_laan>
+      <antal_obl_laan>112</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>50427</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -14012,11 +14012,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>431267652</restgaeld_obl>
+      <restgaeld_obl>416654895</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>262</antal_obl_laan>
+      <antal_obl_laan>254</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>257927</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -14027,11 +14027,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>102998476</restgaeld_obl>
+      <restgaeld_obl>99913476</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>25</antal_obl_laan>
+      <antal_obl_laan>24</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -14240,11 +14240,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <D>
-      <restgaeld_obl>26282847</restgaeld_obl>
+      <restgaeld_obl>25929966</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>198</antal_obl_laan>
+      <antal_obl_laan>196</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>6270</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -14255,11 +14255,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>133832926</restgaeld_obl>
+      <restgaeld_obl>132537388</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>402</antal_obl_laan>
+      <antal_obl_laan>398</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>28503</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -14270,11 +14270,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>131521881</restgaeld_obl>
+      <restgaeld_obl>128882129</restgaeld_obl>
       <restgaeld_obl_kontant>2818173</restgaeld_obl_kontant>
       <restgaeld_kontant>2805802</restgaeld_kontant>
       <kontant_rente>0.15</kontant_rente>
-      <antal_obl_laan>195</antal_obl_laan>
+      <antal_obl_laan>191</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>5492</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -14504,11 +14504,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>206343256</restgaeld_obl>
+      <restgaeld_obl>204767951</restgaeld_obl>
       <restgaeld_obl_kontant>765432</restgaeld_obl_kontant>
       <restgaeld_kontant>761183</restgaeld_kontant>
       <kontant_rente>0.60</kontant_rente>
-      <antal_obl_laan>282</antal_obl_laan>
+      <antal_obl_laan>280</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>10617</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -14640,8 +14640,8 @@
     <restgaeldinterval>5</restgaeldinterval>
     <D>
       <restgaeld_obl>0</restgaeld_obl>
-      <restgaeld_obl_kontant>141105608</restgaeld_obl_kontant>
-      <restgaeld_kontant>139606496</restgaeld_kontant>
+      <restgaeld_obl_kontant>139760077</restgaeld_obl_kontant>
+      <restgaeld_kontant>138265440</restgaeld_kontant>
       <kontant_rente>0.73</kontant_rente>
       <antal_obl_laan>0</antal_obl_laan>
       <antal_kontant_laan>29</antal_kontant_laan>
@@ -14777,11 +14777,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>496768219</restgaeld_obl>
+      <restgaeld_obl>486658211</restgaeld_obl>
       <restgaeld_obl_kontant>2552474</restgaeld_obl_kontant>
       <restgaeld_kontant>2519827</restgaeld_kontant>
       <kontant_rente>1.10</kontant_rente>
-      <antal_obl_laan>658</antal_obl_laan>
+      <antal_obl_laan>646</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>325158</fradrags_konto>
       <fradrags_konto_laan>18</fradrags_konto_laan>
@@ -14792,11 +14792,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>2271172665</restgaeld_obl>
+      <restgaeld_obl>2228068266</restgaeld_obl>
       <restgaeld_obl_kontant>25041872</restgaeld_obl_kontant>
       <restgaeld_kontant>24806151</restgaeld_kontant>
       <kontant_rente>1.08</kontant_rente>
-      <antal_obl_laan>1365</antal_obl_laan>
+      <antal_obl_laan>1336</antal_obl_laan>
       <antal_kontant_laan>15</antal_kontant_laan>
       <fradrags_konto>358840</fradrags_konto>
       <fradrags_konto_laan>17</fradrags_konto_laan>
@@ -14807,11 +14807,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>401378679</restgaeld_obl>
+      <restgaeld_obl>398003000</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>109</antal_obl_laan>
+      <antal_obl_laan>108</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>19907</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -14913,11 +14913,11 @@
     <restgaeldinterval>5</restgaeldinterval>
     <D>
       <restgaeld_obl>141297543</restgaeld_obl>
-      <restgaeld_obl_kontant>1258055640</restgaeld_obl_kontant>
-      <restgaeld_kontant>1241154702</restgaeld_kontant>
-      <kontant_rente>1.11</kontant_rente>
+      <restgaeld_obl_kontant>1254085695</restgaeld_obl_kontant>
+      <restgaeld_kontant>1237203668</restgaeld_kontant>
+      <kontant_rente>1.12</kontant_rente>
       <antal_obl_laan>22</antal_obl_laan>
-      <antal_kontant_laan>222</antal_kontant_laan>
+      <antal_kontant_laan>221</antal_kontant_laan>
       <fradrags_konto>1858282</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
     </D>
@@ -15035,7 +15035,7 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>33557227</restgaeld_obl>
+      <restgaeld_obl>33489344</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
@@ -15050,11 +15050,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>344738552</restgaeld_obl>
+      <restgaeld_obl>341266064</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>450</antal_obl_laan>
+      <antal_obl_laan>446</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>365807</fradrags_konto>
       <fradrags_konto_laan>16</fradrags_konto_laan>
@@ -15065,11 +15065,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>2470776024</restgaeld_obl>
+      <restgaeld_obl>2440889258</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>1449</antal_obl_laan>
+      <antal_obl_laan>1432</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>1271324</fradrags_konto>
       <fradrags_konto_laan>42</fradrags_konto_laan>
@@ -15080,11 +15080,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>824259080</restgaeld_obl>
+      <restgaeld_obl>814004080</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>210</antal_obl_laan>
+      <antal_obl_laan>207</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -15308,11 +15308,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>91766994</restgaeld_obl>
+      <restgaeld_obl>90631951</restgaeld_obl>
       <restgaeld_obl_kontant>479000</restgaeld_obl_kontant>
       <restgaeld_kontant>477931</restgaeld_kontant>
       <kontant_rente>0.56</kontant_rente>
-      <antal_obl_laan>237</antal_obl_laan>
+      <antal_obl_laan>234</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>16962</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -15323,11 +15323,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>404424969</restgaeld_obl>
+      <restgaeld_obl>401813070</restgaeld_obl>
       <restgaeld_obl_kontant>8593648</restgaeld_obl_kontant>
       <restgaeld_kontant>8487881</restgaeld_kontant>
       <kontant_rente>0.67</kontant_rente>
-      <antal_obl_laan>539</antal_obl_laan>
+      <antal_obl_laan>535</antal_obl_laan>
       <antal_kontant_laan>10</antal_kontant_laan>
       <fradrags_konto>17491</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -15338,11 +15338,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>762673512</restgaeld_obl>
+      <restgaeld_obl>758191867</restgaeld_obl>
       <restgaeld_obl_kontant>17110197</restgaeld_obl_kontant>
       <restgaeld_kontant>16922613</restgaeld_kontant>
       <kontant_rente>0.65</kontant_rente>
-      <antal_obl_laan>520</antal_obl_laan>
+      <antal_obl_laan>517</antal_obl_laan>
       <antal_kontant_laan>11</antal_kontant_laan>
       <fradrags_konto>24161</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -15443,11 +15443,11 @@
     <laan_gruppe>B</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>30998721</restgaeld_obl>
+      <restgaeld_obl>29587432</restgaeld_obl>
       <restgaeld_obl_kontant>168925076</restgaeld_obl_kontant>
       <restgaeld_kontant>166106175</restgaeld_kontant>
       <kontant_rente>0.73</kontant_rente>
-      <antal_obl_laan>17</antal_obl_laan>
+      <antal_obl_laan>16</antal_obl_laan>
       <antal_kontant_laan>89</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -15581,11 +15581,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>61761171</restgaeld_obl>
+      <restgaeld_obl>60007641</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>184</antal_obl_laan>
+      <antal_obl_laan>180</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -15731,7 +15731,7 @@
     <laan_gruppe>B</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>7477739</restgaeld_obl>
+      <restgaeld_obl>0</restgaeld_obl>
       <restgaeld_obl_kontant>79955058</restgaeld_obl_kontant>
       <restgaeld_kontant>78621657</restgaeld_kontant>
       <kontant_rente>0.12</kontant_rente>
@@ -15854,11 +15854,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>18573211</restgaeld_obl>
+      <restgaeld_obl>17657580</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>47</antal_obl_laan>
+      <antal_obl_laan>45</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>31354</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -15869,13 +15869,13 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>96231649</restgaeld_obl>
+      <restgaeld_obl>92829703</restgaeld_obl>
       <restgaeld_obl_kontant>987471</restgaeld_obl_kontant>
       <restgaeld_kontant>958990</restgaeld_kontant>
       <kontant_rente>0.74</kontant_rente>
-      <antal_obl_laan>126</antal_obl_laan>
+      <antal_obl_laan>122</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
-      <fradrags_konto>120263</fradrags_konto>
+      <fradrags_konto>77232</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
     </D>
   </debitormasse>
@@ -15884,11 +15884,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>305707564</restgaeld_obl>
-      <restgaeld_obl_kontant>7320934</restgaeld_obl_kontant>
-      <restgaeld_kontant>7086383</restgaeld_kontant>
+      <restgaeld_obl>301422608</restgaeld_obl>
+      <restgaeld_obl_kontant>5842377</restgaeld_obl_kontant>
+      <restgaeld_kontant>5657084</restgaeld_kontant>
       <kontant_rente>0.76</kontant_rente>
-      <antal_obl_laan>187</antal_obl_laan>
+      <antal_obl_laan>184</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>5575</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -16005,11 +16005,11 @@
     <restgaeldinterval>5</restgaeldinterval>
     <D>
       <restgaeld_obl>19115201</restgaeld_obl>
-      <restgaeld_obl_kontant>1036284491</restgaeld_obl_kontant>
-      <restgaeld_kontant>997695387</restgaeld_kontant>
+      <restgaeld_obl_kontant>1028657866</restgaeld_obl_kontant>
+      <restgaeld_kontant>990437297</restgaeld_kontant>
       <kontant_rente>0.84</kontant_rente>
       <antal_obl_laan>9</antal_obl_laan>
-      <antal_kontant_laan>180</antal_kontant_laan>
+      <antal_kontant_laan>179</antal_kontant_laan>
       <fradrags_konto>14052</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
     </D>
@@ -16020,8 +16020,8 @@
     <restgaeldinterval>6</restgaeldinterval>
     <D>
       <restgaeld_obl>48642810</restgaeld_obl>
-      <restgaeld_obl_kontant>3361456403</restgaeld_obl_kontant>
-      <restgaeld_kontant>3244273423</restgaeld_kontant>
+      <restgaeld_obl_kontant>3359448648</restgaeld_obl_kontant>
+      <restgaeld_kontant>3242324557</restgaeld_kontant>
       <kontant_rente>0.81</kontant_rente>
       <antal_obl_laan>9</antal_obl_laan>
       <antal_kontant_laan>162</antal_kontant_laan>
@@ -16127,11 +16127,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>5672418</restgaeld_obl>
+      <restgaeld_obl>5194418</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>16</antal_obl_laan>
+      <antal_obl_laan>15</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -16142,11 +16142,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>41287954</restgaeld_obl>
+      <restgaeld_obl>39546954</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>55</antal_obl_laan>
+      <antal_obl_laan>53</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -16157,11 +16157,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>247259513</restgaeld_obl>
+      <restgaeld_obl>240238513</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>146</antal_obl_laan>
+      <antal_obl_laan>142</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>66947</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -16262,11 +16262,11 @@
     <laan_gruppe>B</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>31312531</restgaeld_obl>
+      <restgaeld_obl>29075531</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>15</antal_obl_laan>
+      <antal_obl_laan>14</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -16430,11 +16430,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>44186011</restgaeld_obl>
+      <restgaeld_obl>41889770</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>32</antal_obl_laan>
+      <antal_obl_laan>31</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -16521,11 +16521,11 @@
     <restgaeldinterval>4</restgaeldinterval>
     <D>
       <restgaeld_obl>1942392</restgaeld_obl>
-      <restgaeld_obl_kontant>183425683</restgaeld_obl_kontant>
-      <restgaeld_kontant>175967904</restgaeld_kontant>
+      <restgaeld_obl_kontant>180464434</restgaeld_obl_kontant>
+      <restgaeld_kontant>173131807</restgaeld_kontant>
       <kontant_rente>0.64</kontant_rente>
       <antal_obl_laan>9</antal_obl_laan>
-      <antal_kontant_laan>98</antal_kontant_laan>
+      <antal_kontant_laan>97</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
     </D>
@@ -16649,11 +16649,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>103851101</restgaeld_obl>
+      <restgaeld_obl>102670140</restgaeld_obl>
       <restgaeld_obl_kontant>845667</restgaeld_obl_kontant>
       <restgaeld_kontant>839689</restgaeld_kontant>
       <kontant_rente>0.59</kontant_rente>
-      <antal_obl_laan>139</antal_obl_laan>
+      <antal_obl_laan>137</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -16664,11 +16664,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>199624782</restgaeld_obl>
+      <restgaeld_obl>198562075</restgaeld_obl>
       <restgaeld_obl_kontant>9647106</restgaeld_obl_kontant>
       <restgaeld_kontant>9474913</restgaeld_kontant>
       <kontant_rente>0.72</kontant_rente>
-      <antal_obl_laan>133</antal_obl_laan>
+      <antal_obl_laan>132</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -16769,7 +16769,7 @@
     <laan_gruppe>B</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>11531365</restgaeld_obl>
+      <restgaeld_obl>9974450</restgaeld_obl>
       <restgaeld_obl_kontant>70633426</restgaeld_obl_kontant>
       <restgaeld_kontant>66034871</restgaeld_kontant>
       <kontant_rente>1.37</kontant_rente>
@@ -16937,13 +16937,13 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>145205572</restgaeld_obl>
+      <restgaeld_obl>144114227</restgaeld_obl>
       <restgaeld_obl_kontant>9600485</restgaeld_obl_kontant>
       <restgaeld_kontant>9264908</restgaeld_kontant>
       <kontant_rente>0.78</kontant_rente>
-      <antal_obl_laan>93</antal_obl_laan>
+      <antal_obl_laan>92</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
-      <fradrags_konto>29634</fradrags_konto>
+      <fradrags_konto>17330</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
     </D>
   </debitormasse>
@@ -17180,11 +17180,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>26946190</restgaeld_obl>
+      <restgaeld_obl>25713121</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>71</antal_obl_laan>
+      <antal_obl_laan>68</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>35859</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -17195,11 +17195,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>166515696</restgaeld_obl>
+      <restgaeld_obl>165152518</restgaeld_obl>
       <restgaeld_obl_kontant>770806</restgaeld_obl_kontant>
       <restgaeld_kontant>754166</restgaeld_kontant>
       <kontant_rente>1.17</kontant_rente>
-      <antal_obl_laan>220</antal_obl_laan>
+      <antal_obl_laan>218</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>56641</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -17210,11 +17210,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>608476443</restgaeld_obl>
+      <restgaeld_obl>595419868</restgaeld_obl>
       <restgaeld_obl_kontant>22761152</restgaeld_obl_kontant>
       <restgaeld_kontant>22234498</restgaeld_kontant>
       <kontant_rente>1.20</kontant_rente>
-      <antal_obl_laan>368</antal_obl_laan>
+      <antal_obl_laan>361</antal_obl_laan>
       <antal_kontant_laan>14</antal_kontant_laan>
       <fradrags_konto>106873</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -17225,11 +17225,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>143364824</restgaeld_obl>
+      <restgaeld_obl>139034671</restgaeld_obl>
       <restgaeld_obl_kontant>3511444</restgaeld_obl_kontant>
       <restgaeld_kontant>3428953</restgaeld_kontant>
       <kontant_rente>1.18</kontant_rente>
-      <antal_obl_laan>36</antal_obl_laan>
+      <antal_obl_laan>35</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -17468,11 +17468,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>153718777</restgaeld_obl>
+      <restgaeld_obl>152106730</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>202</antal_obl_laan>
+      <antal_obl_laan>200</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>89276</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -17483,11 +17483,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>745651220</restgaeld_obl>
+      <restgaeld_obl>743363220</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>439</antal_obl_laan>
+      <antal_obl_laan>437</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>161162</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -17498,11 +17498,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>330297698</restgaeld_obl>
+      <restgaeld_obl>327221698</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>88</antal_obl_laan>
+      <antal_obl_laan>87</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -17588,11 +17588,11 @@
     <laan_gruppe>B</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>59105987</restgaeld_obl>
+      <restgaeld_obl>56922987</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>29</antal_obl_laan>
+      <antal_obl_laan>28</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>11239</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -17726,11 +17726,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>32887927</restgaeld_obl>
+      <restgaeld_obl>32441526</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>90</antal_obl_laan>
+      <antal_obl_laan>88</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -17741,11 +17741,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>138567116</restgaeld_obl>
+      <restgaeld_obl>136761291</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>187</antal_obl_laan>
+      <antal_obl_laan>185</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>50368</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -17756,11 +17756,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>628608464</restgaeld_obl>
+      <restgaeld_obl>621175922</restgaeld_obl>
       <restgaeld_obl_kontant>35113428</restgaeld_obl_kontant>
       <restgaeld_kontant>34467526</restgaeld_kontant>
       <kontant_rente>1.65</kontant_rente>
-      <antal_obl_laan>376</antal_obl_laan>
+      <antal_obl_laan>370</antal_obl_laan>
       <antal_kontant_laan>17</antal_kontant_laan>
       <fradrags_konto>61096</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -17772,11 +17772,11 @@
     <restgaeldinterval>5</restgaeldinterval>
     <D>
       <restgaeld_obl>167441308</restgaeld_obl>
-      <restgaeld_obl_kontant>3572540</restgaeld_obl_kontant>
-      <restgaeld_kontant>3453091</restgaeld_kontant>
-      <kontant_rente>1.76</kontant_rente>
+      <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
+      <restgaeld_kontant>0</restgaeld_kontant>
+      <kontant_rente>0</kontant_rente>
       <antal_obl_laan>46</antal_obl_laan>
-      <antal_kontant_laan>9</antal_kontant_laan>
+      <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>7051</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
     </D>
@@ -18014,11 +18014,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>107435176</restgaeld_obl>
+      <restgaeld_obl>105674176</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>144</antal_obl_laan>
+      <antal_obl_laan>142</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>91330</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -18029,11 +18029,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>758902724</restgaeld_obl>
+      <restgaeld_obl>752261653</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>429</antal_obl_laan>
+      <antal_obl_laan>424</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>194356</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -18044,11 +18044,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>345321613</restgaeld_obl>
+      <restgaeld_obl>336709613</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>85</antal_obl_laan>
+      <antal_obl_laan>83</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>10775</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -18257,11 +18257,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <D>
-      <restgaeld_obl>12963171</restgaeld_obl>
+      <restgaeld_obl>12656551</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>88</antal_obl_laan>
+      <antal_obl_laan>86</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -18272,11 +18272,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>78972143</restgaeld_obl>
+      <restgaeld_obl>77634299</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>231</antal_obl_laan>
+      <antal_obl_laan>227</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>25686</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -18287,11 +18287,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>86323899</restgaeld_obl>
+      <restgaeld_obl>84409100</restgaeld_obl>
       <restgaeld_obl_kontant>1343592</restgaeld_obl_kontant>
       <restgaeld_kontant>1326036</restgaeld_kontant>
       <kontant_rente>0.36</kontant_rente>
-      <antal_obl_laan>131</antal_obl_laan>
+      <antal_obl_laan>128</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -18740,11 +18740,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>13398549</restgaeld_obl>
+      <restgaeld_obl>13610883</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>38</antal_obl_laan>
+      <antal_obl_laan>39</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -18755,11 +18755,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>71086578</restgaeld_obl>
+      <restgaeld_obl>69288680</restgaeld_obl>
       <restgaeld_obl_kontant>2530040</restgaeld_obl_kontant>
       <restgaeld_kontant>2466519</restgaeld_kontant>
       <kontant_rente>0.43</kontant_rente>
-      <antal_obl_laan>97</antal_obl_laan>
+      <antal_obl_laan>95</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>14466</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -18770,11 +18770,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>73398097</restgaeld_obl>
+      <restgaeld_obl>70978170</restgaeld_obl>
       <restgaeld_obl_kontant>2738689</restgaeld_obl_kontant>
       <restgaeld_kontant>2688090</restgaeld_kontant>
       <kontant_rente>0.35</kontant_rente>
-      <antal_obl_laan>51</antal_obl_laan>
+      <antal_obl_laan>50</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -19013,11 +19013,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>11769581</restgaeld_obl>
+      <restgaeld_obl>11527816</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>36</antal_obl_laan>
+      <antal_obl_laan>35</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -19262,11 +19262,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>36775612</restgaeld_obl>
+      <restgaeld_obl>35306612</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>48</antal_obl_laan>
+      <antal_obl_laan>46</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -19277,11 +19277,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>243128754</restgaeld_obl>
+      <restgaeld_obl>241966754</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>135</antal_obl_laan>
+      <antal_obl_laan>134</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>5837</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -19535,11 +19535,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>879802180</restgaeld_obl>
+      <restgaeld_obl>878457180</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>512</antal_obl_laan>
+      <antal_obl_laan>511</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>360347</fradrags_konto>
       <fradrags_konto_laan>16</fradrags_konto_laan>
@@ -20183,11 +20183,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>22029255</restgaeld_obl>
+      <restgaeld_obl>21612187</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>56</antal_obl_laan>
+      <antal_obl_laan>55</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>37579</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -20198,11 +20198,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>70446595</restgaeld_obl>
+      <restgaeld_obl>68942736</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>93</antal_obl_laan>
+      <antal_obl_laan>91</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>11036</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -20213,11 +20213,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>123775694</restgaeld_obl>
+      <restgaeld_obl>122095242</restgaeld_obl>
       <restgaeld_obl_kontant>13044612</restgaeld_obl_kontant>
       <restgaeld_kontant>12736840</restgaeld_kontant>
       <kontant_rente>1.28</kontant_rente>
-      <antal_obl_laan>79</antal_obl_laan>
+      <antal_obl_laan>78</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>17698</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -20304,8 +20304,8 @@
     <restgaeldinterval>3</restgaeldinterval>
     <D>
       <restgaeld_obl>0</restgaeld_obl>
-      <restgaeld_obl_kontant>3665371</restgaeld_obl_kontant>
-      <restgaeld_kontant>3597642</restgaeld_kontant>
+      <restgaeld_obl_kontant>2814322</restgaeld_obl_kontant>
+      <restgaeld_kontant>2764347</restgaeld_kontant>
       <kontant_rente>1.22</kontant_rente>
       <antal_obl_laan>0</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
@@ -20546,11 +20546,11 @@
     <laan_gruppe>B</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>43649064</restgaeld_obl>
+      <restgaeld_obl>42836747</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>53</antal_obl_laan>
+      <antal_obl_laan>52</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -20576,11 +20576,11 @@
     <laan_gruppe>B</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>1968918586</restgaeld_obl>
+      <restgaeld_obl>1960542261</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>355</antal_obl_laan>
+      <antal_obl_laan>353</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>24548</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -20720,11 +20720,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>908620148</restgaeld_obl>
+      <restgaeld_obl>901520148</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>533</antal_obl_laan>
+      <antal_obl_laan>529</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>314746</fradrags_konto>
       <fradrags_konto_laan>12</fradrags_konto_laan>
@@ -20735,11 +20735,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>220615045</restgaeld_obl>
+      <restgaeld_obl>216116045</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>55</antal_obl_laan>
+      <antal_obl_laan>54</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -20924,11 +20924,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>5022069</restgaeld_obl>
+      <restgaeld_obl>4770995</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>14</antal_obl_laan>
+      <antal_obl_laan>13</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -20954,11 +20954,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>293438265</restgaeld_obl>
+      <restgaeld_obl>289522785</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>157</antal_obl_laan>
+      <antal_obl_laan>155</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>42581</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -21059,7 +21059,7 @@
     <laan_gruppe>B</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>20296285</restgaeld_obl>
+      <restgaeld_obl>18358285</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
@@ -21407,11 +21407,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>39047156</restgaeld_obl>
+      <restgaeld_obl>35055953</restgaeld_obl>
       <restgaeld_obl_kontant>1912865</restgaeld_obl_kontant>
       <restgaeld_kontant>1852306</restgaeld_kontant>
       <kontant_rente>2.26</kontant_rente>
-      <antal_obl_laan>23</antal_obl_laan>
+      <antal_obl_laan>21</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -21422,7 +21422,7 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>21611820</restgaeld_obl>
+      <restgaeld_obl>17559358</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
@@ -21641,11 +21641,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>143125854</restgaeld_obl>
+      <restgaeld_obl>142069854</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>85</antal_obl_laan>
+      <antal_obl_laan>84</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -21656,11 +21656,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>51768430</restgaeld_obl>
+      <restgaeld_obl>47558430</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>12</antal_obl_laan>
+      <antal_obl_laan>11</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -21836,11 +21836,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>21699662</restgaeld_obl>
+      <restgaeld_obl>20799662</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>28</antal_obl_laan>
+      <antal_obl_laan>27</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -21851,11 +21851,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>250269797</restgaeld_obl>
+      <restgaeld_obl>247602162</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>134</antal_obl_laan>
+      <antal_obl_laan>133</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>38773</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -21866,11 +21866,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>166636019</restgaeld_obl>
+      <restgaeld_obl>162444741</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>41</antal_obl_laan>
+      <antal_obl_laan>40</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -22124,13 +22124,13 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>411898848</restgaeld_obl>
+      <restgaeld_obl>400424555</restgaeld_obl>
       <restgaeld_obl_kontant>8133661</restgaeld_obl_kontant>
       <restgaeld_kontant>7968731</restgaeld_kontant>
       <kontant_rente>2.67</kontant_rente>
-      <antal_obl_laan>234</antal_obl_laan>
+      <antal_obl_laan>228</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
-      <fradrags_konto>70228</fradrags_konto>
+      <fradrags_konto>64486</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
     </D>
   </debitormasse>
@@ -22796,11 +22796,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>24774083</restgaeld_obl>
+      <restgaeld_obl>24074083</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>31</antal_obl_laan>
+      <antal_obl_laan>30</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -23021,11 +23021,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>343424235</restgaeld_obl>
+      <restgaeld_obl>337779154</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>180</antal_obl_laan>
+      <antal_obl_laan>177</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>53899</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -23264,11 +23264,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>93234760</restgaeld_obl>
+      <restgaeld_obl>92249570</restgaeld_obl>
       <restgaeld_obl_kontant>699959</restgaeld_obl_kontant>
       <restgaeld_kontant>675587</restgaeld_kontant>
       <kontant_rente>3.35</kontant_rente>
-      <antal_obl_laan>117</antal_obl_laan>
+      <antal_obl_laan>116</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -23279,11 +23279,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>650215241</restgaeld_obl>
+      <restgaeld_obl>635675714</restgaeld_obl>
       <restgaeld_obl_kontant>1593433</restgaeld_obl_kontant>
       <restgaeld_kontant>1581470</restgaeld_kontant>
       <kontant_rente>3.06</kontant_rente>
-      <antal_obl_laan>383</antal_obl_laan>
+      <antal_obl_laan>374</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>104996</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -23504,11 +23504,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>115382392</restgaeld_obl>
+      <restgaeld_obl>108386696</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>31</antal_obl_laan>
+      <antal_obl_laan>29</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -23723,11 +23723,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>91681126</restgaeld_obl>
+      <restgaeld_obl>89576501</restgaeld_obl>
       <restgaeld_obl_kontant>1511009</restgaeld_obl_kontant>
       <restgaeld_kontant>1407635</restgaeld_kontant>
       <kontant_rente>3.86</kontant_rente>
-      <antal_obl_laan>58</antal_obl_laan>
+      <antal_obl_laan>57</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -23829,11 +23829,11 @@
     <restgaeldinterval>5</restgaeldinterval>
     <D>
       <restgaeld_obl>0</restgaeld_obl>
-      <restgaeld_obl_kontant>57189168</restgaeld_obl_kontant>
-      <restgaeld_kontant>55394469</restgaeld_kontant>
+      <restgaeld_obl_kontant>52834356</restgaeld_obl_kontant>
+      <restgaeld_kontant>51158906</restgaeld_kontant>
       <kontant_rente>3.39</kontant_rente>
       <antal_obl_laan>0</antal_obl_laan>
-      <antal_kontant_laan>10</antal_kontant_laan>
+      <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
     </D>
@@ -24356,11 +24356,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>75389777</restgaeld_obl>
+      <restgaeld_obl>74866777</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>96</antal_obl_laan>
+      <antal_obl_laan>95</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>32753</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -24371,11 +24371,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>854057339</restgaeld_obl>
+      <restgaeld_obl>848690583</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>460</antal_obl_laan>
+      <antal_obl_laan>457</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>47765</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -24386,11 +24386,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>395785539</restgaeld_obl>
+      <restgaeld_obl>385626216</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>102</antal_obl_laan>
+      <antal_obl_laan>99</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>10770</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -24431,11 +24431,11 @@
     <laan_gruppe>B</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>419336</restgaeld_obl>
+      <restgaeld_obl>0</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>9</antal_obl_laan>
+      <antal_obl_laan>0</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -24446,7 +24446,22 @@
     <laan_gruppe>B</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>1600226</restgaeld_obl>
+      <restgaeld_obl>0</restgaeld_obl>
+      <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
+      <restgaeld_kontant>0</restgaeld_kontant>
+      <kontant_rente>0</kontant_rente>
+      <antal_obl_laan>0</antal_obl_laan>
+      <antal_kontant_laan>0</antal_kontant_laan>
+      <fradrags_konto>0</fradrags_konto>
+      <fradrags_konto_laan>0</fradrags_konto_laan>
+    </D>
+  </debitormasse>
+  <debitormasse>
+    <isin>DK0009409179</isin>
+    <laan_gruppe>B</laan_gruppe>
+    <restgaeldinterval>4</restgaeldinterval>
+    <D>
+      <restgaeld_obl>17104570</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
@@ -24459,28 +24474,13 @@
   <debitormasse>
     <isin>DK0009409179</isin>
     <laan_gruppe>B</laan_gruppe>
-    <restgaeldinterval>4</restgaeldinterval>
-    <D>
-      <restgaeld_obl>27156270</restgaeld_obl>
-      <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
-      <restgaeld_kontant>0</restgaeld_kontant>
-      <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>14</antal_obl_laan>
-      <antal_kontant_laan>0</antal_kontant_laan>
-      <fradrags_konto>0</fradrags_konto>
-      <fradrags_konto_laan>0</fradrags_konto_laan>
-    </D>
-  </debitormasse>
-  <debitormasse>
-    <isin>DK0009409179</isin>
-    <laan_gruppe>B</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>122845220</restgaeld_obl>
+      <restgaeld_obl>116991890</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>21</antal_obl_laan>
+      <antal_obl_laan>20</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -24575,7 +24575,7 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <D>
-      <restgaeld_obl>477407</restgaeld_obl>
+      <restgaeld_obl>670567</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
@@ -24605,11 +24605,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>176677331</restgaeld_obl>
+      <restgaeld_obl>173736280</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>231</antal_obl_laan>
+      <antal_obl_laan>227</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>28436</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -24620,11 +24620,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>1054400674</restgaeld_obl>
+      <restgaeld_obl>1044644997</restgaeld_obl>
       <restgaeld_obl_kontant>5505250</restgaeld_obl_kontant>
       <restgaeld_kontant>5325361</restgaeld_kontant>
       <kontant_rente>4.29</kontant_rente>
-      <antal_obl_laan>620</antal_obl_laan>
+      <antal_obl_laan>614</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>79058</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -24635,11 +24635,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>269133806</restgaeld_obl>
+      <restgaeld_obl>265496978</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>71</antal_obl_laan>
+      <antal_obl_laan>70</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -24863,11 +24863,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>121216781</restgaeld_obl>
+      <restgaeld_obl>124666781</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>149</antal_obl_laan>
+      <antal_obl_laan>154</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>38153</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -24878,13 +24878,13 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>527322113</restgaeld_obl>
+      <restgaeld_obl>532151113</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>336</antal_obl_laan>
+      <antal_obl_laan>338</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
-      <fradrags_konto>132017</fradrags_konto>
+      <fradrags_konto>144322</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
     </D>
   </debitormasse>
@@ -24893,11 +24893,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>113619750</restgaeld_obl>
+      <restgaeld_obl>106400633</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>29</antal_obl_laan>
+      <antal_obl_laan>27</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -25017,7 +25017,7 @@
     <restgaeldinterval>4</restgaeldinterval>
     <I>
       <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>700000</opsagt_beloeb>
+      <opsagt_beloeb>1010000</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -25025,8 +25025,8 @@
     <laan_gruppe>C</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <I>
-      <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>3764000</opsagt_beloeb>
+      <antal_opsagte_laan>0</antal_opsagte_laan>
+      <opsagt_beloeb>0</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -25058,11 +25058,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>28671020</restgaeld_obl>
+      <restgaeld_obl>30167020</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>74</antal_obl_laan>
+      <antal_obl_laan>78</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -25073,11 +25073,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>284554984</restgaeld_obl>
+      <restgaeld_obl>303378283</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>373</antal_obl_laan>
+      <antal_obl_laan>397</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -25088,11 +25088,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>2262987505</restgaeld_obl>
+      <restgaeld_obl>2340966538</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>1282</antal_obl_laan>
+      <antal_obl_laan>1326</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>239812</fradrags_konto>
       <fradrags_konto_laan>11</fradrags_konto_laan>
@@ -25103,11 +25103,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>833607792</restgaeld_obl>
+      <restgaeld_obl>878423156</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>197</antal_obl_laan>
+      <antal_obl_laan>207</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>20937</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -25118,7 +25118,7 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>6</restgaeldinterval>
     <D>
-      <restgaeld_obl>17505000</restgaeld_obl>
+      <restgaeld_obl>27838000</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
@@ -25193,11 +25193,11 @@
     <laan_gruppe>B</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>83720235</restgaeld_obl>
+      <restgaeld_obl>85731235</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>42</antal_obl_laan>
+      <antal_obl_laan>43</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -25208,11 +25208,11 @@
     <laan_gruppe>B</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>184892304</restgaeld_obl>
+      <restgaeld_obl>192833304</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>32</antal_obl_laan>
+      <antal_obl_laan>33</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -25271,8 +25271,8 @@
     <laan_gruppe>C</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <I>
-      <antal_opsagte_laan>0</antal_opsagte_laan>
-      <opsagt_beloeb>0</opsagt_beloeb>
+      <antal_opsagte_laan>9</antal_opsagte_laan>
+      <opsagt_beloeb>990000</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -25281,7 +25281,7 @@
     <restgaeldinterval>4</restgaeldinterval>
     <I>
       <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>11366120</opsagt_beloeb>
+      <opsagt_beloeb>7776354</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -25290,7 +25290,7 @@
     <restgaeldinterval>5</restgaeldinterval>
     <I>
       <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>14227000</opsagt_beloeb>
+      <opsagt_beloeb>402834</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -25331,7 +25331,7 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>67878959</restgaeld_obl>
+      <restgaeld_obl>67881300</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
@@ -25346,11 +25346,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>682696727</restgaeld_obl>
+      <restgaeld_obl>679787242</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>879</antal_obl_laan>
+      <antal_obl_laan>875</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>183189</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -25361,11 +25361,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>3925298594</restgaeld_obl>
+      <restgaeld_obl>3919356052</restgaeld_obl>
       <restgaeld_obl_kontant>7988118</restgaeld_obl_kontant>
       <restgaeld_kontant>7902403</restgaeld_kontant>
       <kontant_rente>5.10</kontant_rente>
-      <antal_obl_laan>2309</antal_obl_laan>
+      <antal_obl_laan>2302</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>352950</fradrags_konto>
       <fradrags_konto_laan>19</fradrags_konto_laan>
@@ -25376,13 +25376,13 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>908959748</restgaeld_obl>
+      <restgaeld_obl>913278461</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>229</antal_obl_laan>
+      <antal_obl_laan>230</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
-      <fradrags_konto>26583</fradrags_konto>
+      <fradrags_konto>34489</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
     </D>
   </debitormasse>
@@ -25467,11 +25467,11 @@
     <restgaeldinterval>4</restgaeldinterval>
     <D>
       <restgaeld_obl>27173649</restgaeld_obl>
-      <restgaeld_obl_kontant>85880988</restgaeld_obl_kontant>
-      <restgaeld_kontant>84629737</restgaeld_kontant>
+      <restgaeld_obl_kontant>89741684</restgaeld_obl_kontant>
+      <restgaeld_kontant>88509737</restgaeld_kontant>
       <kontant_rente>5.13</kontant_rente>
       <antal_obl_laan>14</antal_obl_laan>
-      <antal_kontant_laan>44</antal_kontant_laan>
+      <antal_kontant_laan>46</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
     </D>
@@ -25536,7 +25536,7 @@
     <restgaeldinterval>2</restgaeldinterval>
     <I>
       <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>98513</opsagt_beloeb>
+      <opsagt_beloeb>100379</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -25545,7 +25545,7 @@
     <restgaeldinterval>3</restgaeldinterval>
     <I>
       <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>4902985</opsagt_beloeb>
+      <opsagt_beloeb>5782808</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -25553,8 +25553,8 @@
     <laan_gruppe>C</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <I>
-      <antal_opsagte_laan>14</antal_opsagte_laan>
-      <opsagt_beloeb>19913601</opsagt_beloeb>
+      <antal_opsagte_laan>15</antal_opsagte_laan>
+      <opsagt_beloeb>23305532</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -25563,7 +25563,7 @@
     <restgaeldinterval>5</restgaeldinterval>
     <I>
       <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>3183286</opsagt_beloeb>
+      <opsagt_beloeb>11073797</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -25604,11 +25604,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>9799597</restgaeld_obl>
+      <restgaeld_obl>13122597</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>25</antal_obl_laan>
+      <antal_obl_laan>34</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -25619,11 +25619,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>63573914</restgaeld_obl>
+      <restgaeld_obl>75712970</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>84</antal_obl_laan>
+      <antal_obl_laan>100</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>23621</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -25634,11 +25634,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>158206188</restgaeld_obl>
+      <restgaeld_obl>182853188</restgaeld_obl>
       <restgaeld_obl_kontant>4504673</restgaeld_obl_kontant>
       <restgaeld_kontant>4401079</restgaeld_kontant>
       <kontant_rente>4.28</kontant_rente>
-      <antal_obl_laan>102</antal_obl_laan>
+      <antal_obl_laan>120</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>19630</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -25663,6 +25663,21 @@
     <isin>DK0009410268</isin>
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>6</restgaeldinterval>
+    <D>
+      <restgaeld_obl>0</restgaeld_obl>
+      <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
+      <restgaeld_kontant>0</restgaeld_kontant>
+      <kontant_rente>0</kontant_rente>
+      <antal_obl_laan>0</antal_obl_laan>
+      <antal_kontant_laan>0</antal_kontant_laan>
+      <fradrags_konto>0</fradrags_konto>
+      <fradrags_konto_laan>0</fradrags_konto_laan>
+    </D>
+  </debitormasse>
+  <debitormasse>
+    <isin>DK0009410268</isin>
+    <laan_gruppe>A</laan_gruppe>
+    <restgaeldinterval>7</restgaeldinterval>
     <D>
       <restgaeld_obl>0</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
@@ -25709,11 +25724,11 @@
     <laan_gruppe>B</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>0</restgaeld_obl>
+      <restgaeld_obl>890943</restgaeld_obl>
       <restgaeld_obl_kontant>3196565</restgaeld_obl_kontant>
       <restgaeld_kontant>3085812</restgaeld_kontant>
       <kontant_rente>4.45</kontant_rente>
-      <antal_obl_laan>0</antal_obl_laan>
+      <antal_obl_laan>9</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -25725,11 +25740,11 @@
     <restgaeldinterval>4</restgaeldinterval>
     <D>
       <restgaeld_obl>7840905</restgaeld_obl>
-      <restgaeld_obl_kontant>68120786</restgaeld_obl_kontant>
-      <restgaeld_kontant>66153906</restgaeld_kontant>
-      <kontant_rente>4.38</kontant_rente>
+      <restgaeld_obl_kontant>79850549</restgaeld_obl_kontant>
+      <restgaeld_kontant>77623906</restgaeld_kontant>
+      <kontant_rente>4.37</kontant_rente>
       <antal_obl_laan>9</antal_obl_laan>
-      <antal_kontant_laan>34</antal_kontant_laan>
+      <antal_kontant_laan>41</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
     </D>
@@ -25740,11 +25755,11 @@
     <restgaeldinterval>5</restgaeldinterval>
     <D>
       <restgaeld_obl>0</restgaeld_obl>
-      <restgaeld_obl_kontant>110843833</restgaeld_obl_kontant>
-      <restgaeld_kontant>108153396</restgaeld_kontant>
-      <kontant_rente>4.30</kontant_rente>
+      <restgaeld_obl_kontant>186700713</restgaeld_obl_kontant>
+      <restgaeld_kontant>182383396</restgaeld_kontant>
+      <kontant_rente>4.28</kontant_rente>
       <antal_obl_laan>0</antal_obl_laan>
-      <antal_kontant_laan>20</antal_kontant_laan>
+      <antal_kontant_laan>31</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
     </D>
@@ -25755,10 +25770,25 @@
     <restgaeldinterval>6</restgaeldinterval>
     <D>
       <restgaeld_obl>35433372</restgaeld_obl>
-      <restgaeld_obl_kontant>45854224</restgaeld_obl_kontant>
-      <restgaeld_kontant>44954552</restgaeld_kontant>
+      <restgaeld_obl_kontant>94211629</restgaeld_obl_kontant>
+      <restgaeld_kontant>92297552</restgaeld_kontant>
       <kontant_rente>4.24</kontant_rente>
       <antal_obl_laan>9</antal_obl_laan>
+      <antal_kontant_laan>9</antal_kontant_laan>
+      <fradrags_konto>0</fradrags_konto>
+      <fradrags_konto_laan>0</fradrags_konto_laan>
+    </D>
+  </debitormasse>
+  <debitormasse>
+    <isin>DK0009410268</isin>
+    <laan_gruppe>B</laan_gruppe>
+    <restgaeldinterval>7</restgaeldinterval>
+    <D>
+      <restgaeld_obl>0</restgaeld_obl>
+      <restgaeld_obl_kontant>71301247</restgaeld_obl_kontant>
+      <restgaeld_kontant>70000000</restgaeld_kontant>
+      <kontant_rente>4.21</kontant_rente>
+      <antal_obl_laan>0</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -25813,6 +25843,15 @@
     <isin>DK0009410268</isin>
     <laan_gruppe>C</laan_gruppe>
     <restgaeldinterval>6</restgaeldinterval>
+    <I>
+      <antal_opsagte_laan>0</antal_opsagte_laan>
+      <opsagt_beloeb>0</opsagt_beloeb>
+    </I>
+  </debitormasse>
+  <debitormasse>
+    <isin>DK0009410268</isin>
+    <laan_gruppe>C</laan_gruppe>
+    <restgaeldinterval>7</restgaeldinterval>
     <I>
       <antal_opsagte_laan>0</antal_opsagte_laan>
       <opsagt_beloeb>0</opsagt_beloeb>
@@ -25838,11 +25877,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>25134996</restgaeld_obl>
+      <restgaeld_obl>24848795</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>64</antal_obl_laan>
+      <antal_obl_laan>63</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -25853,11 +25892,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>202645235</restgaeld_obl>
+      <restgaeld_obl>200322162</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>265</antal_obl_laan>
+      <antal_obl_laan>262</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>6284</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -25868,11 +25907,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>438045163</restgaeld_obl>
+      <restgaeld_obl>433223586</restgaeld_obl>
       <restgaeld_obl_kontant>1029226</restgaeld_obl_kontant>
       <restgaeld_kontant>1010699</restgaeld_kontant>
       <kontant_rente>5.22</kontant_rente>
-      <antal_obl_laan>286</antal_obl_laan>
+      <antal_obl_laan>284</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>33964</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -26051,8 +26090,8 @@
     <laan_gruppe>C</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <I>
-      <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>929786</opsagt_beloeb>
+      <antal_opsagte_laan>0</antal_opsagte_laan>
+      <opsagt_beloeb>0</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -26061,7 +26100,7 @@
     <restgaeldinterval>4</restgaeldinterval>
     <I>
       <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>5606658</opsagt_beloeb>
+      <opsagt_beloeb>4113515</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -26111,11 +26150,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>56192722</restgaeld_obl>
+      <restgaeld_obl>53121847</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>74</antal_obl_laan>
+      <antal_obl_laan>70</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>14103</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -26126,11 +26165,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>266026693</restgaeld_obl>
+      <restgaeld_obl>256679163</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>160</antal_obl_laan>
+      <antal_obl_laan>155</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -26141,11 +26180,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>39090841</restgaeld_obl>
+      <restgaeld_obl>35917066</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>10</antal_obl_laan>
+      <antal_obl_laan>9</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -26286,7 +26325,7 @@
     <restgaeldinterval>3</restgaeldinterval>
     <I>
       <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>1539128</opsagt_beloeb>
+      <opsagt_beloeb>2775812</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -26295,7 +26334,7 @@
     <restgaeldinterval>4</restgaeldinterval>
     <I>
       <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>9347528</opsagt_beloeb>
+      <opsagt_beloeb>10701186</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -26303,8 +26342,8 @@
     <laan_gruppe>C</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <I>
-      <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>3173775</opsagt_beloeb>
+      <antal_opsagte_laan>0</antal_opsagte_laan>
+      <opsagt_beloeb>0</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -26330,7 +26369,7 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <D>
-      <restgaeld_obl>270660</restgaeld_obl>
+      <restgaeld_obl>225660</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
@@ -26345,11 +26384,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>5303937</restgaeld_obl>
+      <restgaeld_obl>5038937</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>14</antal_obl_laan>
+      <antal_obl_laan>13</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -26360,11 +26399,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>42240892</restgaeld_obl>
+      <restgaeld_obl>40928798</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>56</antal_obl_laan>
+      <antal_obl_laan>54</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>42399</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -26375,11 +26414,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>265326379</restgaeld_obl>
+      <restgaeld_obl>251825262</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>150</antal_obl_laan>
+      <antal_obl_laan>143</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>29367</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -26390,11 +26429,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>143690732</restgaeld_obl>
+      <restgaeld_obl>116900260</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>37</antal_obl_laan>
+      <antal_obl_laan>30</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>24436</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -26510,8 +26549,8 @@
     <laan_gruppe>C</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <I>
-      <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>45000</opsagt_beloeb>
+      <antal_opsagte_laan>0</antal_opsagte_laan>
+      <opsagt_beloeb>0</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -26520,7 +26559,7 @@
     <restgaeldinterval>2</restgaeldinterval>
     <I>
       <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>736629</opsagt_beloeb>
+      <opsagt_beloeb>471629</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -26538,7 +26577,7 @@
     <restgaeldinterval>4</restgaeldinterval>
     <I>
       <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>12665741</opsagt_beloeb>
+      <opsagt_beloeb>10272259</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -26547,7 +26586,7 @@
     <restgaeldinterval>5</restgaeldinterval>
     <I>
       <antal_opsagte_laan>9</antal_opsagte_laan>
-      <opsagt_beloeb>26790471</opsagt_beloeb>
+      <opsagt_beloeb>11158156</opsagt_beloeb>
     </I>
   </debitormasse>
   <debitormasse>
@@ -26564,11 +26603,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <D>
-      <restgaeld_obl>1956840</restgaeld_obl>
+      <restgaeld_obl>2309840</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>13</antal_obl_laan>
+      <antal_obl_laan>15</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -26579,11 +26618,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>23374619</restgaeld_obl>
+      <restgaeld_obl>25472619</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>67</antal_obl_laan>
+      <antal_obl_laan>73</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -26594,11 +26633,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>36587682</restgaeld_obl>
+      <restgaeld_obl>44807540</restgaeld_obl>
       <restgaeld_obl_kontant>541103</restgaeld_obl_kontant>
       <restgaeld_kontant>520337</restgaeld_kontant>
       <kontant_rente>3.86</kontant_rente>
-      <antal_obl_laan>51</antal_obl_laan>
+      <antal_obl_laan>62</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -26609,11 +26648,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>42362881</restgaeld_obl>
+      <restgaeld_obl>43557881</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>31</antal_obl_laan>
+      <antal_obl_laan>32</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -26684,11 +26723,11 @@
     <laan_gruppe>B</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>0</restgaeld_obl>
-      <restgaeld_obl_kontant>1571470</restgaeld_obl_kontant>
-      <restgaeld_kontant>1516793</restgaeld_kontant>
-      <kontant_rente>3.78</kontant_rente>
-      <antal_obl_laan>0</antal_obl_laan>
+      <restgaeld_obl>835141</restgaeld_obl>
+      <restgaeld_obl_kontant>2311450</restgaeld_obl_kontant>
+      <restgaeld_kontant>2236793</restgaeld_kontant>
+      <kontant_rente>3.71</kontant_rente>
+      <antal_obl_laan>9</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -26700,9 +26739,9 @@
     <restgaeldinterval>4</restgaeldinterval>
     <D>
       <restgaeld_obl>1393876</restgaeld_obl>
-      <restgaeld_obl_kontant>6869125</restgaeld_obl_kontant>
-      <restgaeld_kontant>6633537</restgaeld_kontant>
-      <kontant_rente>3.76</kontant_rente>
+      <restgaeld_obl_kontant>11087495</restgaeld_obl_kontant>
+      <restgaeld_kontant>10743537</restgaeld_kontant>
+      <kontant_rente>3.69</kontant_rente>
       <antal_obl_laan>9</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
@@ -26715,9 +26754,9 @@
     <restgaeldinterval>5</restgaeldinterval>
     <D>
       <restgaeld_obl>0</restgaeld_obl>
-      <restgaeld_obl_kontant>8863840</restgaeld_obl_kontant>
-      <restgaeld_kontant>8542625</restgaeld_kontant>
-      <kontant_rente>4.26</kontant_rente>
+      <restgaeld_obl_kontant>16143897</restgaeld_obl_kontant>
+      <restgaeld_kontant>15629625</restgaeld_kontant>
+      <kontant_rente>3.94</kontant_rente>
       <antal_obl_laan>0</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
@@ -26798,7 +26837,7 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>1</restgaeldinterval>
     <D>
-      <restgaeld_obl>918830</restgaeld_obl>
+      <restgaeld_obl>1270830</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
@@ -26813,11 +26852,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>2</restgaeldinterval>
     <D>
-      <restgaeld_obl>16790712</restgaeld_obl>
+      <restgaeld_obl>22155712</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>45</antal_obl_laan>
+      <antal_obl_laan>58</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -26828,11 +26867,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>136598127</restgaeld_obl>
+      <restgaeld_obl>154388459</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>173</antal_obl_laan>
+      <antal_obl_laan>197</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>3509</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -26843,11 +26882,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>743012503</restgaeld_obl>
+      <restgaeld_obl>899246503</restgaeld_obl>
       <restgaeld_obl_kontant>5638008</restgaeld_obl_kontant>
       <restgaeld_kontant>5460271</restgaeld_kontant>
       <kontant_rente>4.28</kontant_rente>
-      <antal_obl_laan>428</antal_obl_laan>
+      <antal_obl_laan>524</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>32662</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -26858,11 +26897,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>284136866</restgaeld_obl>
+      <restgaeld_obl>343334866</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>71</antal_obl_laan>
+      <antal_obl_laan>87</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -26933,7 +26972,7 @@
     <laan_gruppe>B</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>924117</restgaeld_obl>
+      <restgaeld_obl>1883117</restgaeld_obl>
       <restgaeld_obl_kontant>5577627</restgaeld_obl_kontant>
       <restgaeld_kontant>5400345</restgaeld_kontant>
       <kontant_rente>4.27</kontant_rente>
@@ -26949,11 +26988,11 @@
     <restgaeldinterval>4</restgaeldinterval>
     <D>
       <restgaeld_obl>7015472</restgaeld_obl>
-      <restgaeld_obl_kontant>54042353</restgaeld_obl_kontant>
-      <restgaeld_kontant>52100909</restgaeld_kontant>
-      <kontant_rente>4.31</kontant_rente>
+      <restgaeld_obl_kontant>61820838</restgaeld_obl_kontant>
+      <restgaeld_kontant>59647909</restgaeld_kontant>
+      <kontant_rente>4.30</kontant_rente>
       <antal_obl_laan>9</antal_obl_laan>
-      <antal_kontant_laan>30</antal_kontant_laan>
+      <antal_kontant_laan>34</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
     </D>
@@ -26964,11 +27003,11 @@
     <restgaeldinterval>5</restgaeldinterval>
     <D>
       <restgaeld_obl>0</restgaeld_obl>
-      <restgaeld_obl_kontant>92631010</restgaeld_obl_kontant>
-      <restgaeld_kontant>89620707</restgaeld_kontant>
+      <restgaeld_obl_kontant>117786909</restgaeld_obl_kontant>
+      <restgaeld_kontant>113920707</restgaeld_kontant>
       <kontant_rente>4.28</kontant_rente>
       <antal_obl_laan>0</antal_obl_laan>
-      <antal_kontant_laan>18</antal_kontant_laan>
+      <antal_kontant_laan>21</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
     </D>
@@ -26979,11 +27018,11 @@
     <restgaeldinterval>6</restgaeldinterval>
     <D>
       <restgaeld_obl>12261047</restgaeld_obl>
-      <restgaeld_obl_kontant>305568081</restgaeld_obl_kontant>
-      <restgaeld_kontant>292517830</restgaeld_kontant>
-      <kontant_rente>4.37</kontant_rente>
+      <restgaeld_obl_kontant>354957163</restgaeld_obl_kontant>
+      <restgaeld_kontant>340277830</restgaeld_kontant>
+      <kontant_rente>4.36</kontant_rente>
       <antal_obl_laan>9</antal_obl_laan>
-      <antal_kontant_laan>12</antal_kontant_laan>
+      <antal_kontant_laan>15</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
     </D>
@@ -27069,13 +27108,28 @@
   <debitormasse>
     <isin>DK0009413601</isin>
     <laan_gruppe>A</laan_gruppe>
-    <restgaeldinterval>2</restgaeldinterval>
+    <restgaeldinterval>1</restgaeldinterval>
     <D>
-      <restgaeld_obl>4042619</restgaeld_obl>
+      <restgaeld_obl>314000</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>11</antal_obl_laan>
+      <antal_obl_laan>9</antal_obl_laan>
+      <antal_kontant_laan>0</antal_kontant_laan>
+      <fradrags_konto>0</fradrags_konto>
+      <fradrags_konto_laan>0</fradrags_konto_laan>
+    </D>
+  </debitormasse>
+  <debitormasse>
+    <isin>DK0009413601</isin>
+    <laan_gruppe>A</laan_gruppe>
+    <restgaeldinterval>2</restgaeldinterval>
+    <D>
+      <restgaeld_obl>4617619</restgaeld_obl>
+      <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
+      <restgaeld_kontant>0</restgaeld_kontant>
+      <kontant_rente>0</kontant_rente>
+      <antal_obl_laan>13</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -27086,11 +27140,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>40456187</restgaeld_obl>
+      <restgaeld_obl>44550187</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>55</antal_obl_laan>
+      <antal_obl_laan>61</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -27101,11 +27155,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>289064108</restgaeld_obl>
+      <restgaeld_obl>326774108</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>156</antal_obl_laan>
+      <antal_obl_laan>176</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -27116,11 +27170,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>154987329</restgaeld_obl>
+      <restgaeld_obl>181194329</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>40</antal_obl_laan>
+      <antal_obl_laan>47</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -27130,6 +27184,21 @@
     <isin>DK0009413601</isin>
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>6</restgaeldinterval>
+    <D>
+      <restgaeld_obl>10213000</restgaeld_obl>
+      <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
+      <restgaeld_kontant>0</restgaeld_kontant>
+      <kontant_rente>0</kontant_rente>
+      <antal_obl_laan>9</antal_obl_laan>
+      <antal_kontant_laan>0</antal_kontant_laan>
+      <fradrags_konto>0</fradrags_konto>
+      <fradrags_konto_laan>0</fradrags_konto_laan>
+    </D>
+  </debitormasse>
+  <debitormasse>
+    <isin>DK0009413601</isin>
+    <laan_gruppe>A</laan_gruppe>
+    <restgaeldinterval>7</restgaeldinterval>
     <D>
       <restgaeld_obl>0</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
@@ -27143,8 +27212,8 @@
   </debitormasse>
   <debitormasse>
     <isin>DK0009413601</isin>
-    <laan_gruppe>A</laan_gruppe>
-    <restgaeldinterval>7</restgaeldinterval>
+    <laan_gruppe>B</laan_gruppe>
+    <restgaeldinterval>1</restgaeldinterval>
     <D>
       <restgaeld_obl>0</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
@@ -27206,11 +27275,11 @@
     <laan_gruppe>B</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>47203215</restgaeld_obl>
+      <restgaeld_obl>54104215</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>9</antal_obl_laan>
+      <antal_obl_laan>10</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -27245,6 +27314,15 @@
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
     </D>
+  </debitormasse>
+  <debitormasse>
+    <isin>DK0009413601</isin>
+    <laan_gruppe>C</laan_gruppe>
+    <restgaeldinterval>1</restgaeldinterval>
+    <I>
+      <antal_opsagte_laan>0</antal_opsagte_laan>
+      <opsagt_beloeb>0</opsagt_beloeb>
+    </I>
   </debitormasse>
   <debitormasse>
     <isin>DK0009413601</isin>
@@ -27381,11 +27459,11 @@
     <restgaeldinterval>5</restgaeldinterval>
     <D>
       <restgaeld_obl>0</restgaeld_obl>
-      <restgaeld_obl_kontant>92252408</restgaeld_obl_kontant>
-      <restgaeld_kontant>61554922</restgaeld_kontant>
+      <restgaeld_obl_kontant>96129576</restgaeld_obl_kontant>
+      <restgaeld_kontant>64237922</restgaeld_kontant>
       <kontant_rente>4.12</kontant_rente>
       <antal_obl_laan>0</antal_obl_laan>
-      <antal_kontant_laan>14</antal_kontant_laan>
+      <antal_kontant_laan>15</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
     </D>
@@ -27396,11 +27474,11 @@
     <restgaeldinterval>6</restgaeldinterval>
     <D>
       <restgaeld_obl>0</restgaeld_obl>
-      <restgaeld_obl_kontant>234407646</restgaeld_obl_kontant>
-      <restgaeld_kontant>159026937</restgaeld_kontant>
-      <kontant_rente>3.96</kontant_rente>
+      <restgaeld_obl_kontant>279167152</restgaeld_obl_kontant>
+      <restgaeld_kontant>189996937</restgaeld_kontant>
+      <kontant_rente>3.93</kontant_rente>
       <antal_obl_laan>0</antal_obl_laan>
-      <antal_kontant_laan>12</antal_kontant_laan>
+      <antal_kontant_laan>14</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
     </D>
@@ -27411,9 +27489,9 @@
     <restgaeldinterval>7</restgaeldinterval>
     <D>
       <restgaeld_obl>0</restgaeld_obl>
-      <restgaeld_obl_kontant>415768369</restgaeld_obl_kontant>
-      <restgaeld_kontant>283175976</restgaeld_kontant>
-      <kontant_rente>3.93</kontant_rente>
+      <restgaeld_obl_kontant>479390259</restgaeld_obl_kontant>
+      <restgaeld_kontant>327933976</restgaeld_kontant>
+      <kontant_rente>3.89</kontant_rente>
       <antal_obl_laan>0</antal_obl_laan>
       <antal_kontant_laan>9</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
@@ -27476,11 +27554,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>18616795</restgaeld_obl>
+      <restgaeld_obl>22021795</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>24</antal_obl_laan>
+      <antal_obl_laan>28</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>11717</fradrags_konto>
       <fradrags_konto_laan>9</fradrags_konto_laan>
@@ -27491,11 +27569,11 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>4</restgaeldinterval>
     <D>
-      <restgaeld_obl>69135073</restgaeld_obl>
+      <restgaeld_obl>103363073</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>43</antal_obl_laan>
+      <antal_obl_laan>65</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -27506,7 +27584,7 @@
     <laan_gruppe>A</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>20587000</restgaeld_obl>
+      <restgaeld_obl>23611000</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
@@ -27536,11 +27614,11 @@
     <laan_gruppe>B</laan_gruppe>
     <restgaeldinterval>3</restgaeldinterval>
     <D>
-      <restgaeld_obl>0</restgaeld_obl>
+      <restgaeld_obl>836000</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
-      <antal_obl_laan>0</antal_obl_laan>
+      <antal_obl_laan>9</antal_obl_laan>
       <antal_kontant_laan>0</antal_kontant_laan>
       <fradrags_konto>0</fradrags_konto>
       <fradrags_konto_laan>0</fradrags_konto_laan>
@@ -27566,7 +27644,7 @@
     <laan_gruppe>B</laan_gruppe>
     <restgaeldinterval>5</restgaeldinterval>
     <D>
-      <restgaeld_obl>5376000</restgaeld_obl>
+      <restgaeld_obl>9113000</restgaeld_obl>
       <restgaeld_obl_kontant>0</restgaeld_obl_kontant>
       <restgaeld_kontant>0</restgaeld_kontant>
       <kontant_rente>0</kontant_rente>
