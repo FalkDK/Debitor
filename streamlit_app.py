@@ -1,45 +1,19 @@
 import streamlit as st
 import pandas as pd
-import requests
-from datetime import datetime
 import plotly.express as px
-import xml.etree.ElementTree as ET
-import os
 from streamlit_option_menu import option_menu
 from data_loader import load_xml, load_xml_redemption
 
-# helper function
+st.set_page_config(layout="wide", page_title='Danish Bonds Data')
+
+# Load custom CSS
+with open('styles.css') as f:
+    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+
+# Helper functions
 @st.cache_data
 def load_files():
     return load_xml(), load_xml_redemption()
-
-# Function to load data from XML files
-@st.cache_data
-def load_data():
-    data_folder = "./Data"
-    file_paths = ['dlr.xml', 'jyk.xml', 'nda.xml', 'nyk.xml', 'rd.xml']
-    all_data = []
-
-    for file_name in file_paths:
-        file_path = os.path.join(data_folder, file_name)
-        try:
-            tree = ET.parse(file_path)
-            root = tree.getroot()
-
-            for debitormasse in root.findall('debitormasse'):
-                record = {}
-                record['isin'] = str(debitormasse.find('isin').text if debitormasse.find('isin') is not None else None)
-                record['laan_gruppe'] = str(debitormasse.find('laan_gruppe').text if debitormasse.find('laan_gruppe') is not None else None)
-                record['restgaeldinterval'] = int(debitormasse.find('restgaeldinterval').text if debitormasse.find('restgaeldinterval') is not None else None)
-                D = debitormasse.find('D')
-                if D is not None:
-                    for child in D:
-                        record[child.tag] = float(child.text)
-                all_data.append(record)
-        except Exception as e:
-            st.error(f"Error loading file {file_name}: {str(e)}")
-
-    return pd.DataFrame(all_data)
 
 @st.cache_data
 def calculate_percentage(df, selected_isins):
@@ -124,48 +98,33 @@ def gather_loan_shares(df, selected_isins):
 def calculate_avg_loan_size_per_laan_gruppe(df, selected_isins):
     loan_size_dfs = []
     for isin in selected_isins:
-        # Filter out laan_gruppe C and the specified isin
         df_filtered = df[(df['laan_gruppe'] != 'C') & (df['isin'] == isin)].copy()
-
-        # Aggregate the data
         aggregated_data = df_filtered.groupby(['laan_gruppe', 'restgaeldinterval']).agg(
             total_restgaeld_obl=('restgaeld_obl', 'sum'),
             total_restgaeld_obl_kontant=('restgaeld_obl_kontant', 'sum'),
             total_antal_obl_laan=('antal_obl_laan', 'sum'),
             total_antal_kontant_laan=('antal_kontant_laan', 'sum')
         ).reset_index()
-
-        # Calculate the total loan amounts and total loan counts
         aggregated_data['total_loan_amount'] = aggregated_data['total_restgaeld_obl'] + aggregated_data['total_restgaeld_obl_kontant']
         aggregated_data['total_loan_count'] = aggregated_data['total_antal_obl_laan'] + aggregated_data['total_antal_kontant_laan']
-        
-        # Calculate the average loan size for each type and overall
         aggregated_data['avg_loan_size'] = aggregated_data['total_loan_amount'] / aggregated_data['total_loan_count']
         aggregated_data['avg_obl_loan_size'] = aggregated_data['total_restgaeld_obl'] / aggregated_data['total_antal_obl_laan']
         aggregated_data['avg_kontant_loan_size'] = aggregated_data['total_restgaeld_obl_kontant'] / aggregated_data['total_antal_kontant_laan']
-
-        # Replace infinite values with NaN
         aggregated_data.replace([float('inf'), -float('inf')], pd.NA, inplace=True)
-
-        # Add ISIN column for identification
         aggregated_data['isin'] = isin
-
-        # Append to list
         loan_size_dfs.append(aggregated_data)
-
-    # Concatenate all dataframes into one
     return pd.concat(loan_size_dfs)
 
 @st.cache_data
 def calculate_afdrag_percentage(df):
     """
-    Calculates the percentage of 'afdrag_belob' for each ISIN relative to the total 'afdrag_belob' for that ISIN.
+    Calculates the percentage and cumulative percentage of 'afdrag_belob' for each ISIN relative to the total 'afdrag_belob' for that ISIN.
 
     Parameters:
-    df (pd.DataFrame): The input DataFrame containing columns 'isin' and 'afdrag_belob'.
+    df (pd.DataFrame): The input DataFrame containing columns 'isin', 'afdrag_belob', and 'terminsdato'.
 
     Returns:
-    pd.DataFrame: The DataFrame with an additional 'afdrag_percentage' column.
+    pd.DataFrame: The DataFrame with additional 'afdrag_percentage' and 'cumulative_percentage' columns.
     """
     # Step 1: Calculate the total afdrag_belob for each ISIN
     total_afdrag_per_isin = df.groupby('isin')['afdrag_belob'].sum().reset_index()
@@ -177,37 +136,45 @@ def calculate_afdrag_percentage(df):
     # Step 3: Calculate the percentage
     df['afdrag_percentage'] = (df['afdrag_belob'] / df['total_afdrag_belob']) * 100
 
+    # Step 4: Sort the DataFrame by ISIN and date to ensure proper cumulative calculation
+    df.sort_values(by=['isin', 'terminsdato'], inplace=True)
+
+    # Step 5: Calculate the cumulative percentage for each ISIN
+    df['cumulative_percentage'] = df.groupby('isin')['afdrag_percentage'].cumsum()
+
     return df
 
 
+# Main function
 def main():
-    st.set_page_config(layout="wide", page_title='Danish Bonds Data')
     
-    # Sidebar navigation
     with st.sidebar:
         selected = option_menu(
             "Main Menu",
-            ["Home", "Debtor Distribution", "Large Loans", "Redemption"],
-            icons=['house', 'graph-up', 'list-ol', 'bar-chart'] ,
+            ["Home", "Debtor Distribution", "Large Loans", "Cashflow"],
+            icons=['house', 'graph-up', 'list-ol', 'bar-chart'],
             menu_icon="cast",
             default_index=1,
         )
     
-    # Load data
     with st.spinner('Loading data...'):
-        df, df_r = load_files()
+        if 'data_loaded' not in st.session_state:
+            st.session_state.df, st.session_state.df_r = load_files()
+            st.session_state.data_loaded = True
         
+        df = st.session_state.df
+        df_r = st.session_state.df_r
     
-    # Main content
     if selected == "Home":
         display_home()
     elif selected == "Debtor Distribution":
         display_debitor_analysis(df)
     elif selected == "Large Loans":
         display_large_loans(df)
-    elif selected == "Redemption":
+    elif selected == "Cashflow":
         display_redemption(df_r)
 
+# Display functions
 def display_home():
     st.title("Danish Bonds Data")
     st.write("Welcome to the Danish Bonds Data dashboard.")
@@ -216,8 +183,6 @@ def display_home():
 
 def display_debitor_analysis(df):
     st.title("Debtor Distribution")
-    
-    # ISIN selection
     isin_options = df['isin'].unique()
     default_isins = ['DK0009540981', 'DK0009409922', 'DK0006359286', 'DK0004626918', 'DK0002058346', 'DK0009541013', 'DK0009409419', 'DK0006359369', 'DK0004627056', 'DK0002058429']
     default_isins = [isin for isin in default_isins if isin in isin_options]
@@ -227,18 +192,12 @@ def display_debitor_analysis(df):
         st.warning("Please select at least one ISIN to view analysis.")
         return
     
-    # Calculate interval distribution and store in a variable
     interval_distribution_df = calculate_interval_distribution(df, selected_isins)
     interval_distribution_df.columns = ["0-200k", '200k-500k', '500k-1m', '1-3m', '3-10m', '10-50m', '+50m', 'total']
-    
-    # Calculate shares and store in a variable
     loan_shares_df = gather_loan_shares(df, selected_isins)
-    
-    # Merge the two DataFrames side by side
     merged_df = interval_distribution_df.merge(loan_shares_df, left_index=True, right_index=True)
     merged_df.columns = merged_df.columns.map(str)
     
-    # Use tabs to organize content
     tab1, tab2, tab3 = st.tabs(["Distribution", "Loan Sizes", "Summary"])
     
     with tab1:
@@ -251,81 +210,26 @@ def display_debitor_analysis(df):
         display_summary(merged_df)
 
 def display_distribution(df, selected_isins):
-    st.header("Debitor Distribution")
+    st.header("Debtor Distribution")
     
     with st.spinner('Calculating distribution...'):
         percentage_df = calculate_percentage(df, selected_isins)
     
-    # Plotting the combined bar chart for debtor distribution
     fig_obl = px.bar(percentage_df, x='restgaeldinterval', y='percentage', color='isin', barmode='group',
                      title='Percentage Distribution of Obl',
-                     labels={'restgaeldinterval': 'Restgæld Interval', 'percentage': 'Percentage'},
+                     labels={'restgaeldinterval': 'Loan Interval', 'percentage': 'Percentage'},
                      hover_data=['isin', 'laan_gruppe'])
     st.plotly_chart(fig_obl, use_container_width=True)
     
     fig_cash = px.bar(percentage_df, x='restgaeldinterval', y='percentage_obl_kontant', color='isin', barmode='group',
                       title='Percentage Distribution of Cash Loans',
-                      labels={'restgaeldinterval': 'Restgæld Interval', 'percentage_obl_kontant': 'Percentage'},
+                      labels={'restgaeldinterval': 'Loan Interval', 'percentage_obl_kontant': 'Percentage'},
                       hover_data=['isin', 'laan_gruppe'])
     st.plotly_chart(fig_cash, use_container_width=True)
 
-    
-    # Add this at the beginning of your script
-    # Add custom CSS for the info boxes and tables
-    st.markdown("""
-        <style>
-    .info-box {
-        background-color: #e6f2ff;
-        color: #003366;
-        padding: 10px;
-        border-radius: 5px;
-        margin-bottom: 10px;
-    }
-    
-    .styled-table {
-        width: 100%;
-        border-collapse: separate;
-        border-spacing: 0;
-        border: 1px solid #FF4B4B;
-        border-radius: 5px;
-        overflow: hidden;
-    }
-    
-    .styled-table thead th {
-        background-color: #FF4B4B;
-        color: white;
-        padding: 10px;
-        border: none;
-        text-align: left;
-    }
-    
-    .styled-table tbody tr {
-        border: none;
-    }
-    
-    .styled-table tbody tr:nth-child(even) {
-        background-color: #F0F2F6;
-    }
-    
-    .styled-table tbody tr:nth-child(odd) {
-        background-color: white;
-    }
-    
-    .styled-table td,
-    .styled-table th {
-        padding: 10px;
-        color: black;
-        border: none;
-    }
-</style>
-        """, unsafe_allow_html=True)
-
-    
-    # Allow the user to select one ISIN from the list
     selected_isin = st.selectbox("Breakdown of selected ISIN:", selected_isins, key='debtor')
 
     if selected_isin:
-        
         percentage_df = calculate_percentage(df, [selected_isin])
         pivoted_df = percentage_df.pivot_table(index=['isin', 'restgaeldinterval'], columns='laan_gruppe', values='percentage', aggfunc='sum', margins=True, margins_name="Total")
         pivoted_df_kontant = percentage_df.pivot_table(index=['isin', 'restgaeldinterval'], columns='laan_gruppe', values='percentage_obl_kontant', aggfunc='sum', margins=True, margins_name="Total")
@@ -334,9 +238,7 @@ def display_distribution(df, selected_isins):
         rest_kontant = df[(df['isin'] == selected_isin)]['restgaeld_obl_kontant'].sum()
         share_obl, share_kontant = calculate_restgaeld_shares(df, selected_isin)
         share_a, share_b = calculate_loan_shares(df, selected_isin)
-        #st.write(f"**ISIN:** {selected_isin} | **Private Share:** {round(share_a, 3)} | **Commercial Share:** {round(share_b, 3)}")
-
-        # Use markdown for better formatting of the ISIN information
+        
         st.markdown(f"""
         <div class='info-box'>
         <strong>ISIN:</strong> {selected_isin} | 
@@ -353,8 +255,6 @@ def display_distribution(df, selected_isins):
         <strong>Share:</strong> {round(share_obl, 3)}
         </div>
         """, unsafe_allow_html=True)
-            #st.write(f'**Obl:** {rest_obl:,} | **Share:** {round(share_obl, 3)}')
-            #st.table(pivoted_df.loc[selected_isin].fillna(0))  # Using fillna(0) to replace NaN values with 0 for better presentation
             p_df = pivoted_df.loc[selected_isin].fillna(0)
             p_df.columns.name = 'LoanInterval'
             p_df.index.name = None
@@ -366,13 +266,10 @@ def display_distribution(df, selected_isins):
         <strong>Share:</strong> {round(share_kontant, 3)} 
         </div>
         """, unsafe_allow_html=True)
-            #st.write(f'**Cash:** {rest_kontant:,} | **Share:** {round(share_kontant, 3)} ')
-            #st.table(pivoted_df_kontant.loc[selected_isin].fillna(0))  # Using fillna(0) to replace NaN values with 0 for better presentation   
             p_df = pivoted_df_kontant.loc[selected_isin].fillna(0)
             p_df.columns.name = 'LoanInterval'
             p_df.index.name = None
             st.markdown(p_df.to_html(classes='styled-table'), unsafe_allow_html=True)
-            
 
 def display_loan_sizes(df, selected_isins):
     st.header("Average Loan Sizes")
@@ -387,7 +284,6 @@ def display_loan_sizes(df, selected_isins):
                            hover_data=['isin'])
     st.plotly_chart(fig_loan_size, use_container_width=True)
     
-    # Plotting across interval per gruppe
     loan_size_df_gruppe_combined = calculate_avg_loan_size_per_laan_gruppe(df, selected_isins)
     fig_loan_size = px.bar(
         loan_size_df_gruppe_combined.melt(id_vars=['isin', 'restgaeldinterval', 'laan_gruppe'], value_vars=['avg_loan_size']),
@@ -401,11 +297,9 @@ def display_loan_sizes(df, selected_isins):
 
     st.plotly_chart(fig_loan_size, use_container_width=True)
     
-    # Allow the user to select one ISIN from the list
     subset_isin = st.selectbox("Breakdown of selected ISIN:", selected_isins, key='LoanSize')
     
     if subset_isin:
-
         st.markdown(f"""
 <div class='info-box'>
 <strong>ISIN:</strong> {subset_isin}
@@ -416,15 +310,11 @@ def display_loan_sizes(df, selected_isins):
         df_l = df_l.map(lambda x: f"{x:,.0f}")
         df_l.index.name = None
         df_l.columns.name = None
-        
         st.markdown(df_l.to_html(classes='styled-table'), unsafe_allow_html=True)
-        #loan_size_df_gruppe = calculate_avg_loan_size_per_laan_gruppe(df, [isin])
 
-    
 def display_summary(merged_df):
     st.header("Summary Statistics")
     
-    # Display the merged dataframe
     st.dataframe(merged_df.style.format({
         '0-200k': '{:.2f}%',
         '200k-500k': '{:.2f}%',
@@ -439,7 +329,6 @@ def display_summary(merged_df):
         'Cash (%)': '{:.2f}%'
     }), use_container_width=True)
     
-    # Download button for summary data
     csv = merged_df.to_csv()
     st.download_button(
         label="Download summary as CSV",
@@ -456,83 +345,51 @@ def display_large_loans(df):
         total_int_distribution = calculate_interval_distribution(df, isin_options)
         total_int_distribution.columns = ["0-200k", '200k-500k', '500k-1m', '1-3m', '3-10m', '10-50m', '+50m', 'total']
         
-        top_50_isins = total_int_distribution.sort_values('+50m', ascending=False).head(50)
+        # Combine '10-50m' and '+50m' into a single threshold column
+        total_int_distribution['Over 10m'] = total_int_distribution['10-50m'] + total_int_distribution['+50m']
         
-        st.subheader("Top 50 ISINs with the Highest Percentage in '+50m'")
+        # Sort by the new combined column and select the top 50
+        top_50_isins = total_int_distribution.sort_values('Over 10m', ascending=False).head(50)
+        
+        st.subheader("Top 50 ISINs with the Highest Combined Percentage in 'Over 10m'")
         st.dataframe(top_50_isins, use_container_width=True)
         
-        # Visualization
-        fig = px.bar(top_50_isins.reset_index(), x='isin', y='+50m', 
-                     title='Percentage of Loans Over 50m by ISIN',
-                     labels={'isin': 'ISIN', '+50m': 'Percentage of Loans Over 50m'},
-                     hover_data=['isin'])
+        # Custom colorscale for the stacked bar chart
+        custom_colors = ['#636EFA', '#EF553B', '#00CC96', '#AB63FA', '#FFA15A', '#19D3F3', '#FF6692']
         
-        fig.update_layout(
-            xaxis_tickangle=-45  # Rotate the x-axis labels
+        # Stacked Bar Chart: Loan Distribution Across Buckets by ISIN
+        fig_stacked = px.bar(
+            top_50_isins.reset_index(),
+            x='isin',
+            y=["0-200k", "200k-500k", "500k-1m", "1-3m", "3-10m", "10-50m", "+50m"],
+            title='Loan Distribution Across Buckets by ISIN',
+            labels={'value': 'Percentage of Loans', 'isin': 'ISIN'},
+            hover_data={'total': True},
+            barmode='stack',
+            color_discrete_sequence=custom_colors
         )
+        fig_stacked.update_layout(xaxis_tickangle=-45)
+        st.plotly_chart(fig_stacked, use_container_width=True)
         
-        st.plotly_chart(fig, use_container_width=True)
-            
+        # Bar Chart: Combined Percentage of Loans Over 10m by ISIN
+        fig_combined = px.bar(
+            top_50_isins.reset_index(),
+            x='isin',
+            y='Over 10m',
+            title='Combined Percentage of Loans Over 10m by ISIN',
+            labels={'isin': 'ISIN', 'Over 10m': 'Combined Percentage of Loans Over 10m'},
+            hover_data=['isin']
+        )
+        fig_combined.update_layout(xaxis_tickangle=-45)
+        st.plotly_chart(fig_combined, use_container_width=True)
+
+
 def display_redemption(df):
-    
-    
-    st.markdown("""
-        <style>
-    .info-box {
-        background-color: #e6f2ff;
-        color: #003366;
-        padding: 10px;
-        border-radius: 5px;
-        margin-bottom: 10px;
-    }
-    
-    .styled-table {
-        width: 100%;
-        border-collapse: separate;
-        border-spacing: 0;
-        border: 1px solid #FF4B4B;
-        border-radius: 5px;
-        overflow: hidden;
-    }
-    
-    .styled-table thead th {
-        background-color: #FF4B4B;
-        color: white;
-        padding: 10px;
-        border: none;
-        text-align: left;
-    }
-    
-    .styled-table tbody tr {
-        border: none;
-    }
-    
-    .styled-table tbody tr:nth-child(even) {
-        background-color: #F0F2F6;
-    }
-    
-    .styled-table tbody tr:nth-child(odd) {
-        background-color: white;
-    }
-    
-    .styled-table td,
-    .styled-table th {
-        padding: 10px;
-        color: black;
-        border: none;
-    }
-</style>
-        """, unsafe_allow_html=True)
-    
     st.header("Cash Flows")
     new_df = calculate_afdrag_percentage(df)
-    
-    # Step 1: Create a multi-selection box for ISINs
     selected_isins = st.multiselect("Select ISINs:", options=new_df['isin'].unique(), default=['DK0006357660', 'DK0009542094', 'DK0002058189', 'DK0002058262'])
 
-    # Step 2: Filter the DataFrame based on selected ISINs
     if selected_isins:
-
         filtered_df = new_df[new_df['isin'].isin(selected_isins)]
         st.download_button(
             label="Download Selected ISINs as CSV",
@@ -540,24 +397,27 @@ def display_redemption(df):
             file_name='redemption.csv',
             mime='text/csv')
 
-        # Step 3: Pivot the DataFrame to show dates as rows and selected ISINs' percentages as columns
-        pivoted_df = filtered_df.pivot(index='terminsdato', columns='isin', values='afdrag_percentage')
-        
-      
-        # Replace NaN with blank spaces
-        pivoted_df = pivoted_df.fillna('')      
+        pivoted_df = filtered_df.pivot(index='terminsdato', columns='isin', values='afdrag_percentage').fillna('')      
         pivoted_df.columns.name = "Date/ISIN"
         pivoted_df.index.name = None
-        # Step 4: Display the pivoted DataFrame
         st.markdown(pivoted_df.to_html(classes='styled-table'), unsafe_allow_html=True)
-        #st.dataframe(pivoted_df, use_container_width=True)
         
         
+        # Step 3: Plot the data with date on x-axis
+        fig = px.line(
+            filtered_df,
+            x='terminsdato',  # Assuming 'terminsdato' is the date column
+            y='cumulative_percentage',
+            color='isin',
+            title='Cash Flow Over Time by ISIN<br><sup>Cumulative Percentage of Redemptions LogY scale</sup>',
+            labels={'terminsdato': 'Date', 'cumulative_percentage': 'Cumulative Percentage (%) '},
+            markers=True,  # Add markers for each data point, 
+            log_y=True
+        )
+        
+        st.plotly_chart(fig, use_container_width=True)
     else:
         st.warning("Please select at least one ISIN to view the data.")
     
-    
-    
-
 if __name__ == "__main__":
     main()
