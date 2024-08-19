@@ -147,10 +147,12 @@ def load_xml():
         )
 
         if news and 'results' in news and 'item' in news['results'] and news['results']['item']:
-            if 'Realkredit Danmark A/S' not in key:
-                attachment_url = news['results']['item'][0]['attachment'][0]['attachmentUrl']
-            else:
-                attachment_url = news['results']['item'][0]['attachment'][1]['attachmentUrl']
+            attachments = news['results']['item'][0]['attachment']
+                
+            # Find the XML attachment
+            xml_attachment = next((att for att in attachments if att['mimetype'] in ['text/xml', 'application/octet-stream']), None)
+
+            attachment_url = xml_attachment['attachmentUrl']
             published_date = str(pd.to_datetime(news['results']['item'][0]['published']).strftime('%Y-%m-%d'))
             file_name = f"{published_date}_{mapping_short[key]}.xml"
             save_path = os.path.join(data_folder, file_name)
@@ -218,10 +220,11 @@ def load_xml_redemption():
         )
 
         if news and 'results' in news and 'item' in news['results'] and news['results']['item']:
-            if 'Realkredit Danmark A/S' not in key:
-                attachment_url = news['results']['item'][0]['attachment'][0]['attachmentUrl']
-            else:
-                attachment_url = news['results']['item'][0]['attachment'][0]['attachmentUrl']
+            attachments = news['results']['item'][0]['attachment']
+            # Find the XML attachment
+            xml_attachment = next((att for att in attachments if att['mimetype'] in ['text/xml', 'application/octet-stream']), None)
+            attachment_url = xml_attachment['attachmentUrl']
+            
             published_date = str(pd.to_datetime(news['results']['item'][0]['published']).strftime('%Y-%m-%d'))
             file_name = f"{published_date}_{mapping_short[key]}.xml"
             save_path = os.path.join(data_folder, file_name)
