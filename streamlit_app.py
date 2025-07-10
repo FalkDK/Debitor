@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 from streamlit_option_menu import option_menu
 from data_loader import load_xml, load_xml_redemption
-from data_loader_sql import get_recent_cashflow_data, get_recent_debtor_data, fetch_and_process_xml
+#from data_loader_sql import get_recent_cashflow_data, get_recent_debtor_data, fetch_and_process_xml
 
 st.set_page_config(layout="wide", page_title='Danish Bonds Data')
 
@@ -15,7 +15,7 @@ with open('styles.css') as f:
 @st.cache_data
 def load_files():
     fetch_and_process_xml()
-    return get_recent_debtor_data(), get_recent_cashflow_data()
+    return load_xml(), load_xml_redemption()
 
 @st.cache_data
 def calculate_percentage(df, selected_isins):
