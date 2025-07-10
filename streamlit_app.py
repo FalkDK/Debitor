@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.express as px
 from streamlit_option_menu import option_menu
 from data_loader import load_xml, load_xml_redemption
+from data_loader_sql import get_recent_cashflow_data, get_recent_debtor_data, fetch_and_process_xml
 
 st.set_page_config(layout="wide", page_title='Danish Bonds Data')
 
@@ -10,10 +11,11 @@ st.set_page_config(layout="wide", page_title='Danish Bonds Data')
 with open('styles.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-# Helper functions
+
 @st.cache_data
 def load_files():
-    return load_xml(), load_xml_redemption()
+    fetch_and_process_xml()
+    return get_recent_debtor_data(), get_recent_cashflow_data()
 
 @st.cache_data
 def calculate_percentage(df, selected_isins):
@@ -193,7 +195,20 @@ def display_debitor_analysis(df):
         return
     
     interval_distribution_df = calculate_interval_distribution(df, selected_isins)
-    interval_distribution_df.columns = ["0-200k", '200k-500k', '500k-1m', '1-3m', '3-10m', '10-50m', '+50m', 'total']
+    
+    interval_mapping = {
+    1: "0-200k",
+    2: "200k-500k",
+    3: "500k-1m",
+    4: "1-3m",
+    5: "3-10m",
+    6: "10-50m",
+    7: "+50m",
+    }
+    
+    # Dynamically rename the columns based on the mapping
+    interval_distribution_df = interval_distribution_df.rename(columns=interval_mapping)
+    #interval_distribution_df.columns = ["0-200k", '200k-500k', '500k-1m', '1-3m', '3-10m', '10-50m', '+50m', 'total']
     loan_shares_df = gather_loan_shares(df, selected_isins)
     merged_df = interval_distribution_df.merge(loan_shares_df, left_index=True, right_index=True)
     merged_df.columns = merged_df.columns.map(str)
@@ -386,38 +401,139 @@ def display_large_loans(df):
 
 def display_redemption(df):
     st.header("Cash Flows")
-    new_df = calculate_afdrag_percentage(df)
-    selected_isins = st.multiselect("Select ISINs:", options=new_df['isin'].unique(), default=['DK0006357660', 'DK0009542094', 'DK0002058189', 'DK0002058262'])
+    
+    # Input validation
+    if df.empty:
+        st.error("No cashflow data available")
+        return
+        
+    # Ensure required columns exist
+    required_cols = ['isin', 'terminsdato', 'afdrag_belob']
+    if not all(col in df.columns for col in required_cols):
+        st.error("Missing required columns in cashflow data")
+        return
 
-    if selected_isins:
-        filtered_df = new_df[new_df['isin'].isin(selected_isins)]
+    # Clean and prepare data
+    try:
+        # Convert date column if not already datetime
+        df['terminsdato'] = pd.to_datetime(df['terminsdato'])
+        
+        # Sort by date to ensure correct cumulative calculation
+        df = df.sort_values(['isin', 'terminsdato'])
+        
+        # Calculate percentages
+        new_df = calculate_afdrag_percentage(df)
+        
+        # Get unique ISINs for selection
+        all_isins = new_df['isin'].unique()
+        default_isins = ['DK0006357660', 'DK0009542094', 'DK0002058189', 'DK0002058262']
+        default_isins = [isin for isin in default_isins if isin in all_isins]
+        
+        # ISIN selection
+        selected_isins = st.multiselect(
+            "Select ISINs:", 
+            options=all_isins,
+            default=default_isins[:2] if len(default_isins) >= 2 else default_isins
+        )
+
+        if not selected_isins:
+            st.warning("Please select at least one ISIN to view the data.")
+            return
+
+        # Filter data for selected ISINs
+        filtered_df = new_df[new_df['isin'].isin(selected_isins)].copy()
+
+        # Add download button
         st.download_button(
             label="Download Selected ISINs as CSV",
-            data=filtered_df.to_csv(),
+            data=filtered_df.to_csv(index=False),
             file_name='redemption.csv',
-            mime='text/csv')
+            mime='text/csv'
+        )
 
-        pivoted_df = filtered_df.pivot(index='terminsdato', columns='isin', values='afdrag_percentage').fillna('')      
-        pivoted_df.columns.name = "Date/ISIN"
-        pivoted_df.index.name = None
+        # Create date range table
+        st.subheader("Redemption Percentages by Date")
+        pivoted_df = filtered_df.pivot(
+            index='terminsdato', 
+            columns='isin', 
+            values='afdrag_percentage'
+        ).fillna('')
+        
+        pivoted_df.index = pivoted_df.index.strftime('%Y-%m-%d')
+        pivoted_df.columns.name = None
+        pivoted_df.index.name = "Date"
+        
+        # Display the table with formatting
         st.markdown(pivoted_df.to_html(classes='styled-table'), unsafe_allow_html=True)
+
+        # Create cumulative plot
+        st.subheader("Cumulative Redemption Plot")
         
+        # Add date range filter
+        date_min = filtered_df['terminsdato'].min()
+        date_max = filtered_df['terminsdato'].max()
         
-        # Step 3: Plot the data with date on x-axis
+        col1, col2 = st.columns(2)
+        with col1:
+            start_date = st.date_input("Start date", date_min, min_value=date_min, max_value=date_max)
+        with col2:
+            end_date = st.date_input("End date", date_max, min_value=date_min, max_value=date_max)
+
+        # Filter by date range
+        date_filtered_df = filtered_df[
+            (filtered_df['terminsdato'].dt.date >= start_date) &
+            (filtered_df['terminsdato'].dt.date <= end_date)
+        ]
+
+        # Create plot
         fig = px.line(
-            filtered_df,
-            x='terminsdato',  # Assuming 'terminsdato' is the date column
+            date_filtered_df,
+            x='terminsdato',
             y='cumulative_percentage',
             color='isin',
-            title='Cash Flow Over Time by ISIN<br><sup>Cumulative Percentage of Redemptions LogY scale</sup>',
-            labels={'terminsdato': 'Date', 'cumulative_percentage': 'Cumulative Percentage (%) '},
-            markers=True,  # Add markers for each data point, 
+            title='Cumulative Redemption Percentage Over Time',
+            labels={
+                'terminsdato': 'Date',
+                'cumulative_percentage': 'Cumulative Percentage (%)',
+                'isin': 'ISIN'
+            },
+            markers=True,
             log_y=True
         )
-        
+
+        # Customize plot
+        fig.update_layout(
+            hovermode='x unified',
+            xaxis_title="Date",
+            yaxis_title="Cumulative Percentage (log scale)",
+            legend_title="ISIN",
+            showlegend=True
+        )
+
+        # Add hover template
+        fig.update_traces(
+            hovertemplate="<br>".join([
+                "Date: %{x}",
+                "Percentage: %{y:.2f}%",
+                "<extra></extra>"
+            ])
+        )
+
         st.plotly_chart(fig, use_container_width=True)
-    else:
-        st.warning("Please select at least one ISIN to view the data.")
+
+        # Display summary statistics
+        st.subheader("Summary Statistics")
+        summary_df = filtered_df.groupby('isin').agg({
+            'afdrag_belob': ['sum', 'mean', 'std'],
+            'cumulative_percentage': 'max'
+        }).round(2)
+        
+        summary_df.columns = ['Total Redemption', 'Average Redemption', 'Std Dev', 'Final Cumulative %']
+        st.dataframe(summary_df)
+
+    except Exception as e:
+        st.error(f"An error occurred while processing the data: {str(e)}")
+        st.write("Please check the data format and try again.")
     
 if __name__ == "__main__":
     main()
