@@ -14,7 +14,7 @@ with open('styles.css') as f:
 
 @st.cache_data
 def load_files():
-    fetch_and_process_xml()
+    #fetch_and_process_xml()
     return load_xml(), load_xml_redemption()
 
 @st.cache_data
